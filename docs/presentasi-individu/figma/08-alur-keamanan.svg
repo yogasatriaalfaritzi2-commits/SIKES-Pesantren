@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1020" viewBox="0 0 2000 1020">
+<rect x="0" y="0" width="2000" height="1020" fill="#FFFFFF"/>
+<text x="60.0" y="68.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#1F2933" text-anchor="start">Coding web: satu request, enam tahap, enam kontrol</text>
+<text x="60.0" y="104.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" fill="#52606D" text-anchor="start">Tanpa framework, jadi routing, sesi, CSRF, dan query aman ditulis sendiri di app/core.</text>
+<rect x="60.0" y="330.0" width="286.0" height="150.0" rx="10" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="203.0" y="364.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#3E5C76" text-anchor="middle">Browser</text>
+<text x="203.0" y="396.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#1F2933" text-anchor="middle">form + token CSRF</text>
+<line x1="349.0" y1="405.0" x2="368.0" y2="405.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="368.0,405.0 356.0,398.0 356.0,412.0" fill="#52606D" stroke="none"/>
+<rect x="372.0" y="330.0" width="286.0" height="150.0" rx="10" fill="#F5F7FA" stroke="#52606D" stroke-width="2"/>
+<text x="515.0" y="364.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#52606D" text-anchor="middle">public/index.php</text>
+<text x="515.0" y="396.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#1F2933" text-anchor="middle">bootstrap config</text>
+<text x="515.0" y="418.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#1F2933" text-anchor="middle">+ session start</text>
+<line x1="661.0" y1="405.0" x2="680.0" y2="405.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="680.0,405.0 668.0,398.0 668.0,412.0" fill="#52606D" stroke="none"/>
+<rect x="684.0" y="330.0" width="286.0" height="150.0" rx="10" fill="#E3F0E6" stroke="#2F6B45" stroke-width="2"/>
+<text x="827.0" y="364.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#2F6B45" text-anchor="middle">Router</text>
+<text x="827.0" y="396.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#1F2933" text-anchor="middle">middleware per rute</text>
+<text x="827.0" y="418.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#1F2933" text-anchor="middle">auth / permission</text>
+<line x1="973.0" y1="405.0" x2="992.0" y2="405.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="992.0,405.0 980.0,398.0 980.0,412.0" fill="#52606D" stroke="none"/>
+<rect x="996.0" y="330.0" width="286.0" height="150.0" rx="10" fill="#E3F0E6" stroke="#2F6B45" stroke-width="2"/>
+<text x="1139.0" y="364.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#2F6B45" text-anchor="middle">Controller</text>
+<text x="1139.0" y="396.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#1F2933" text-anchor="middle">requirePermission()</text>
+<text x="1139.0" y="418.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#1F2933" text-anchor="middle">checkCsrf() + validasi</text>
+<line x1="1285.0" y1="405.0" x2="1304.0" y2="405.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="1304.0,405.0 1292.0,398.0 1292.0,412.0" fill="#52606D" stroke="none"/>
+<rect x="1308.0" y="330.0" width="286.0" height="150.0" rx="10" fill="#EDE7F6" stroke="#4B3A72" stroke-width="2"/>
+<text x="1451.0" y="364.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#4B3A72" text-anchor="middle">Model + PDO</text>
+<text x="1451.0" y="396.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#1F2933" text-anchor="middle">prepared statement</text>
+<text x="1451.0" y="418.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#1F2933" text-anchor="middle">emulasi prepare OFF</text>
+<line x1="1597.0" y1="405.0" x2="1616.0" y2="405.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="1616.0,405.0 1604.0,398.0 1604.0,412.0" fill="#52606D" stroke="none"/>
+<rect x="1620.0" y="330.0" width="286.0" height="150.0" rx="10" fill="#FBF0DC" stroke="#8A5B13" stroke-width="2"/>
+<text x="1763.0" y="364.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#8A5B13" text-anchor="middle">MySQL</text>
+<text x="1763.0" y="396.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#1F2933" text-anchor="middle">32 tabel</text>
+<text x="1763.0" y="418.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#1F2933" text-anchor="middle">activity_logs</text>
+<rect x="60.0" y="140.0" width="960.0" height="140.0" rx="10" fill="#FFFFFF" stroke="#3E5C76" stroke-width="2"/>
+<text x="80.0" y="172.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#3E5C76" text-anchor="start">SESI &amp; IDENTITAS</text>
+<text x="80.0" y="198.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#1F2933" text-anchor="start">·  Cookie httponly + samesite, ID sesi diperbarui saat login (Session.php:193)</text>
+<text x="80.0" y="222.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#1F2933" text-anchor="start">·  Password bcrypt password_hash(); login dibatasi 5 percobaan / 300 detik (Session.php:13-14)</text>
+<line x1="540.0" y1="280.0" x2="540.0" y2="326.0" stroke="#3E5C76" stroke-width="2" stroke-dasharray="6 4"/>
+<polygon points="540.0,326.0 547.0,314.0 533.0,314.0" fill="#3E5C76" stroke="none"/>
+<rect x="1040.0" y="140.0" width="900.0" height="140.0" rx="10" fill="#FFFFFF" stroke="#2F6B45" stroke-width="2"/>
+<text x="1060.0" y="172.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#2F6B45" text-anchor="start">OTORISASI</text>
+<text x="1060.0" y="198.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#1F2933" text-anchor="start">·  Permission dicek di Router dan diulang di Controller</text>
+<text x="1060.0" y="222.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#1F2933" text-anchor="start">·  Ditolak → 403 sebelum query berjalan; UI hanya pelengkap</text>
+<rect x="60.0" y="540.0" width="1880.0" height="300.0" rx="12" fill="#FFFFFF" stroke="#52606D" stroke-width="2"/>
+<text x="84.0" y="576.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#2F6B45" text-anchor="start">KONTROL YANG SUDAH BERJALAN</text>
+<rect x="84.0" y="596.0" width="296.0" height="108.0" rx="8" fill="#F5F7FA" stroke="#52606D" stroke-width="2"/>
+<text x="232.0" y="624.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#1F2933" text-anchor="middle">Password</text>
+<text x="232.0" y="648.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11.5" font-weight="normal" fill="#52606D" text-anchor="middle">bcrypt</text>
+<text x="232.0" y="666.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11.5" font-weight="normal" fill="#52606D" text-anchor="middle">password_hash / verify</text>
+<rect x="396.0" y="596.0" width="296.0" height="108.0" rx="8" fill="#F5F7FA" stroke="#52606D" stroke-width="2"/>
+<text x="544.0" y="624.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#1F2933" text-anchor="middle">CSRF</text>
+<text x="544.0" y="648.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11.5" font-weight="normal" fill="#52606D" text-anchor="middle">token per form</text>
+<text x="544.0" y="666.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11.5" font-weight="normal" fill="#52606D" text-anchor="middle">hash_equals()</text>
+<rect x="708.0" y="596.0" width="296.0" height="108.0" rx="8" fill="#F5F7FA" stroke="#52606D" stroke-width="2"/>
+<text x="856.0" y="624.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#1F2933" text-anchor="middle">SQL</text>
+<text x="856.0" y="648.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11.5" font-weight="normal" fill="#52606D" text-anchor="middle">PDO prepared</text>
+<text x="856.0" y="666.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11.5" font-weight="normal" fill="#52606D" text-anchor="middle">emulate = false</text>
+<rect x="1020.0" y="596.0" width="296.0" height="108.0" rx="8" fill="#F5F7FA" stroke="#52606D" stroke-width="2"/>
+<text x="1168.0" y="624.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#1F2933" text-anchor="middle">Cookie</text>
+<text x="1168.0" y="648.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11.5" font-weight="normal" fill="#52606D" text-anchor="middle">httponly, samesite</text>
+<text x="1168.0" y="666.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11.5" font-weight="normal" fill="#52606D" text-anchor="middle">regenerate saat login</text>
+<rect x="1332.0" y="596.0" width="296.0" height="108.0" rx="8" fill="#F5F7FA" stroke="#52606D" stroke-width="2"/>
+<text x="1480.0" y="624.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#1F2933" text-anchor="middle">Rate limit</text>
+<text x="1480.0" y="648.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11.5" font-weight="normal" fill="#52606D" text-anchor="middle">5 gagal / 300 detik</text>
+<text x="1480.0" y="666.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11.5" font-weight="normal" fill="#52606D" text-anchor="middle">per username</text>
+<rect x="1644.0" y="596.0" width="296.0" height="108.0" rx="8" fill="#F5F7FA" stroke="#52606D" stroke-width="2"/>
+<text x="1792.0" y="624.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#1F2933" text-anchor="middle">Audit</text>
+<text x="1792.0" y="648.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11.5" font-weight="normal" fill="#52606D" text-anchor="middle">activity_logs</text>
+<text x="1792.0" y="666.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11.5" font-weight="normal" fill="#52606D" text-anchor="middle">76 pemanggilan</text>
+<rect x="84.0" y="726.0" width="916.0" height="96.0" rx="8" fill="#F7E4E4" stroke="#8C2F2F" stroke-width="2"/>
+<text x="104.0" y="754.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#8C2F2F" text-anchor="start">BELUM SELESAI — sebutkan, jangan diklaim beres</text>
+<text x="104.0" y="778.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11.5" font-weight="normal" fill="#1F2933" text-anchor="start">·  Belum ada rate limit khusus endpoint AI dan belum ada tes otomatis</text>
+<text x="104.0" y="798.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11.5" font-weight="normal" fill="#1F2933" text-anchor="start">·  Kunci API masih punya nilai default di config; cabut dan baca dari .env sebelum repo dibagikan</text>
+<rect x="1024.0" y="726.0" width="916.0" height="96.0" rx="8" fill="#FBF0DC" stroke="#8A5B13" stroke-width="2"/>
+<text x="1044.0" y="754.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#8A5B13" text-anchor="start">YANG BISA DITUNJUKKAN SAAT DEMO</text>
+<text x="1044.0" y="778.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11.5" font-weight="normal" fill="#1F2933" text-anchor="start">·  Login sebagai santri lalu buka /tracing → halaman 403, bukan tombol tersembunyi</text>
+<text x="1044.0" y="798.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11.5" font-weight="normal" fill="#1F2933" text-anchor="start">·  Setiap login dan aksi penting muncul di activity_logs beserta pengguna dan waktunya</text>
+<text x="60.0" y="966.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11.5" font-weight="normal" fill="#52606D" text-anchor="start">Bukti kode: app/core/Router.php · Auth.php · Database.php:26 · Session.php · helpers.php · app/config/routes.php</text>
+</svg>

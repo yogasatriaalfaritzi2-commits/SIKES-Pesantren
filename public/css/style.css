@@ -1,0 +1,484 @@
+/* ============================================================
+   SIKES Pondok Pesantren — Stylesheet Kustom
+   Versi 2.0 · Elegant Edition
+   Palet : Hijau Pesantren + Aksen Emas
+   ============================================================ */
+
+/* Font elegan (opsional: pindahkan ke <link> di header.php
+   agar lebih cepat — lihat catatan di bawah) */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+/* ------------------- 1. Desain Token ------------------- */
+:root {
+    /* Palet warna */
+    --brand:         #0f766e;
+    --brand-dark:    #115e59;
+    --brand-light:   #14b8a6;
+    --brand-soft:    rgba(15, 118, 110, .08);
+    --accent:        #e2b04a;            /* emas — aksen elegan */
+    --accent-soft:   rgba(226, 176, 74, .15);
+
+    /* Sidebar */
+    --sidebar-width: 264px;
+    --sidebar-bg-1:  #0d2b1e;
+    --sidebar-bg-2:  #081c12;
+
+    /* Permukaan & teks */
+    --surface:       #ffffff;
+    --page-bg:       #f4f6f8;
+    --text-main:     #1e293b;
+    --text-muted:    #64748b;
+    --line:          #e9edf1;
+
+    /* Bayangan berlapis (soft & modern) */
+    --shadow-sm: 0 1px 2px rgba(15, 23, 42, .05), 0 1px 3px rgba(15, 23, 42, .06);
+    --shadow-md: 0 4px 10px -2px rgba(15, 23, 42, .06), 0 12px 24px -6px rgba(15, 23, 42, .09);
+    --shadow-lg: 0 18px 40px -12px rgba(15, 23, 42, .18);
+
+    /* Bentuk & font */
+    --radius:    14px;
+    --radius-sm: 10px;
+    --font: 'Plus Jakarta Sans', 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+/* ------------------- 2. Dasar ------------------- */
+body {
+    font-family: var(--font);
+    background-color: var(--page-bg);
+    /* Cahaya lembut di sudut atas halaman */
+    background-image: radial-gradient(1100px 380px at 85% -10%, rgba(15, 118, 110, .07), transparent 60%);
+    color: var(--text-main);
+    -webkit-font-smoothing: antialiased;
+}
+
+::selection { background: rgba(20, 184, 166, .25); }
+
+:focus-visible {
+    outline: 3px solid rgba(20, 184, 166, .40);
+    outline-offset: 2px;
+    border-radius: 4px;
+}
+
+/* Scrollbar tipis & halus */
+* { scrollbar-width: thin; scrollbar-color: rgba(148, 163, 184, .45) transparent; }
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { background: rgba(148, 163, 184, .40); border-radius: 99px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(100, 116, 139, .65); }
+.sidebar::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, .15); }
+
+/* ------------------- 3. Tombol & Utilitas ------------------- */
+.btn { border-radius: var(--radius-sm); font-weight: 600; }
+
+.btn-brand {
+    background: linear-gradient(135deg, var(--brand-light), var(--brand));
+    border: 0;
+    color: #fff;
+    box-shadow: 0 4px 14px rgba(15, 118, 110, .35);
+    transition: transform .15s ease, box-shadow .15s ease, filter .15s ease;
+}
+.btn-brand:hover, .btn-brand:focus {
+    color: #fff;
+    filter: brightness(1.06);
+    transform: translateY(-1px);
+    box-shadow: 0 8px 20px rgba(15, 118, 110, .45);
+}
+.btn-brand:active { transform: translateY(0); }
+
+.btn-outline-secondary {
+    --bs-btn-color: var(--text-muted);
+    --bs-btn-border-color: #dbe2e9;
+    --bs-btn-hover-bg: #f1f5f9;
+    --bs-btn-hover-border-color: #dbe2e9;
+    --bs-btn-hover-color: var(--text-main);
+}
+
+.text-brand { color: var(--brand); }
+.badge { border-radius: 999px; padding: .45em .75em; font-weight: 600; }
+
+/* ------------------- 4. Sidebar ------------------- */
+.sidebar {
+    position: fixed; top: 0; bottom: 0; left: 0;
+    width: var(--sidebar-width);
+    background:
+        radial-gradient(560px 240px at 0% 0%, rgba(20, 184, 166, .16), transparent 60%),
+        linear-gradient(180deg, var(--sidebar-bg-1) 0%, var(--sidebar-bg-2) 100%);
+    border-right: 1px solid rgba(255, 255, 255, .06);
+    overflow-y: auto;
+    transition: margin-left .25s ease;
+    z-index: 1035;
+}
+
+/* Logo brand: chip ikon bergradasi */
+.sidebar-brand { height: 64px; }
+.sidebar-brand i {
+    background: linear-gradient(135deg, var(--brand-light), var(--brand));
+    padding: .45rem .6rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, .35), inset 0 1px 0 rgba(255, 255, 255, .22);
+}
+.sidebar-brand .fw-bold { letter-spacing: .04em; }
+
+.sidebar hr { opacity: .12; }
+
+.sidebar .nav-link {
+    position: relative;
+    color: rgba(255, 255, 255, .72);
+    border-radius: var(--radius-sm);
+    padding: .6rem .85rem;
+    font-weight: 500;
+    transition: background .18s ease, color .18s ease, transform .18s ease;
+}
+.sidebar .nav-link i { transition: color .18s ease; }
+
+/* Indikator emas di sisi kiri saat aktif */
+.sidebar .nav-link::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 22%;
+    width: 3px; height: 56%;
+    border-radius: 99px;
+    background: linear-gradient(180deg, var(--accent), var(--brand-light));
+    transform: scaleY(0);
+    transition: transform .2s ease;
+}
+.sidebar .nav-link:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, .07);
+    transform: translateX(4px);
+}
+.sidebar .nav-link.active {
+    color: #fff;
+    background: linear-gradient(90deg, rgba(20, 184, 166, .24), rgba(20, 184, 166, .04));
+    box-shadow: inset 0 0 0 1px rgba(20, 184, 166, .28);
+}
+.sidebar .nav-link.active::before { transform: scaleY(1); }
+.sidebar .nav-link.active i { color: var(--accent); }
+
+.sidebar-heading {
+    font-size: .68rem;
+    font-weight: 700;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, .38);
+}
+
+.badge-soft {
+    background: rgba(255, 255, 255, .12);
+    border: 1px solid rgba(255, 255, 255, .10);
+    color: rgba(255, 255, 255, .65);
+    font-weight: 500;
+    font-size: .65rem;
+    letter-spacing: .03em;
+}
+
+.sidebar .border-top { border-color: rgba(255, 255, 255, .08) !important; }
+
+/* ------------------- 5. Wrapper & Navbar ------------------- */
+.main-wrapper {
+    margin-left: var(--sidebar-width);
+    min-height: 100vh;
+    display: flex; flex-direction: column;
+    transition: margin-left .25s ease;
+}
+
+/* Animasi lembut saat konten halaman muncul */
+.main-wrapper > main { animation: rise .35s ease both; }
+@keyframes rise {
+    from { opacity: 0; transform: translateY(10px); }
+    to   { opacity: 1; transform: none; }
+}
+
+/* Navbar kaca (glassmorphism) */
+.main-wrapper .navbar {
+    background: rgba(255, 255, 255, .82);
+    -webkit-backdrop-filter: saturate(180%) blur(12px);
+    backdrop-filter: saturate(180%) blur(12px);
+    border-bottom: 1px solid var(--line);
+    box-shadow: none;
+    min-height: 64px;
+}
+.main-wrapper .navbar-text { color: var(--text-main); font-weight: 700; }
+
+.main-wrapper .dropdown-menu {
+    border: 1px solid var(--line);
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow-lg);
+    padding: .5rem;
+}
+.main-wrapper .dropdown-item {
+    border-radius: 8px;
+    padding: .5rem .75rem;
+    font-weight: 500;
+}
+.main-wrapper .dropdown-item:hover { background: var(--brand-soft); color: var(--brand-dark); }
+
+/* Desktop: collapse sidebar */
+body.sidebar-collapsed .sidebar { margin-left: calc(-1 * var(--sidebar-width)); }
+body.sidebar-collapsed .main-wrapper { margin-left: 0; }
+
+/* Mobile (<992px): sidebar off-canvas */
+@media (max-width: 991.98px) {
+    .sidebar { margin-left: calc(-1 * var(--sidebar-width)); }
+    .main-wrapper { margin-left: 0; }
+
+    body.sidebar-open .sidebar {
+        margin-left: 0;
+        box-shadow: 0 0 3rem rgba(0, 0, 0, .45);
+    }
+
+    .sidebar-backdrop {
+        position: fixed; inset: 0;
+        background: rgba(8, 28, 18, .55);
+        -webkit-backdrop-filter: blur(2px);
+        backdrop-filter: blur(2px);
+        opacity: 0; visibility: hidden;
+        transition: .25s; z-index: 1030;
+    }
+    body.sidebar-open .sidebar-backdrop { opacity: 1; visibility: visible; }
+}
+
+/* ------------------- 6. Kartu & Konten ------------------- */
+.card {
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+}
+.card-header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--line);
+    font-weight: 700;
+    border-radius: var(--radius) var(--radius) 0 0 !important;
+}
+
+/* Kartu statistik: efek terangkat saat hover */
+.stat-card { transition: transform .2s ease, box-shadow .2s ease; }
+.stat-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); }
+
+.stat-icon {
+    width: 54px; height: 54px;
+    border-radius: 14px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.5rem;
+    flex-shrink: 0;
+    transition: transform .25s ease;
+}
+.stat-card:hover .stat-icon { transform: scale(1.08) rotate(-4deg); }
+
+/* Latar ikon menyesuaikan warna kelas Bootstrap yang dipakai view */
+.stat-icon.text-primary { background: rgba(13, 110, 253, .10); }
+.stat-icon.text-success { background: rgba(25, 135, 84, .10); }
+.stat-icon.text-info    { background: rgba(13, 202, 240, .12); }
+.stat-icon.text-warning { background: rgba(255, 193, 7, .16); }
+.stat-icon.text-danger  { background: rgba(220, 53, 69, .10); }
+.stat-icon.text-brand   { background: var(--brand-soft); }
+
+/* ------------------- 7. Form ------------------- */
+.form-control, .form-select {
+    border-radius: var(--radius-sm);
+    border-color: #dde3ea;
+    padding: .6rem .9rem;
+    transition: border-color .15s ease, box-shadow .15s ease;
+}
+.form-control:focus, .form-select:focus {
+    border-color: var(--brand-light);
+    box-shadow: 0 0 0 4px rgba(20, 184, 166, .14);
+}
+.form-label { font-weight: 600; font-size: .9rem; color: var(--text-main); }
+.input-group-text { background: #f8fafc; border-color: #dde3ea; color: var(--text-muted); }
+
+/* ------------------- 8. Alert, Tabel, Footer ------------------- */
+.alert {
+    border: 0;
+    border-left: 4px solid transparent;
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow-sm);
+    font-weight: 500;
+}
+.alert-success { background: #ecfdf5; color: #065f46; border-left-color: #10b981; }
+.alert-danger  { background: #fef2f2; color: #991b1b; border-left-color: #ef4444; }
+.alert-warning { background: #fffbeb; color: #92400e; border-left-color: #f59e0b; }
+.alert-info    { background: #eff6ff; color: #1e40af; border-left-color: #3b82f6; }
+
+/* Siap pakai untuk modul CRUD berikutnya */
+.table { --bs-table-hover-bg: var(--brand-soft); }
+.table thead th {
+    background: #f8fafc;
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .07em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--line);
+}
+.table > :not(caption) > * > * { padding: .8rem 1rem; }
+
+.main-wrapper footer {
+    background: transparent;
+    border-top: 1px solid var(--line);
+    color: var(--text-muted);
+}
+
+/* ------------------- 9. Halaman Login ------------------- */
+.login-page {
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background:
+        radial-gradient(900px 500px at 85% -10%, rgba(20, 184, 166, .35), transparent 55%),
+        radial-gradient(700px 520px at -10% 110%, rgba(226, 176, 74, .16), transparent 55%),
+        linear-gradient(150deg, #0d2b1e 0%, #0a2318 45%, #0f766e 135%);
+}
+
+/* Lingkaran dekoratif melayang */
+.login-page::before,
+.login-page::after {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    pointer-events: none;
+    animation: float 9s ease-in-out infinite;
+}
+.login-page::before {
+    width: 440px; height: 440px;
+    top: -130px; left: -130px;
+    border: 1.5px solid rgba(255, 255, 255, .09);
+}
+.login-page::after {
+    width: 340px; height: 340px;
+    bottom: -110px; right: -90px;
+    border: 1.5px solid rgba(226, 176, 74, .28);
+    animation-delay: -4.5s;
+}
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50%      { transform: translateY(20px); }
+}
+
+/* Kartu login kaca dengan garis gradasi di atas */
+.login-card {
+    max-width: 440px;
+    border: 1px solid rgba(255, 255, 255, .55);
+    border-radius: 20px;
+    background: rgba(255, 255, 255, .93);
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(14px);
+    box-shadow: 0 25px 60px -12px rgba(0, 0, 0, .40);
+    overflow: hidden;
+    animation: rise .45s ease both;
+}
+.login-card::before {
+    content: '';
+    display: block;
+    height: 4px;
+    background: linear-gradient(90deg, var(--brand-light), var(--accent), var(--brand));
+}
+
+/* Ikon login: kotak membulat bergradasi + cincin emas berputar */
+.login-icon {
+    width: 76px; height: 76px;
+    border-radius: 22px;
+    background: linear-gradient(135deg, var(--brand-light), var(--brand));
+    color: #fff;
+    font-size: 2rem;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 12px 26px -6px rgba(15, 118, 110, .55),
+                inset 0 1px 0 rgba(255, 255, 255, .25);
+    position: relative;
+}
+.login-icon::after {
+    content: '';
+    position: absolute;
+    inset: -8px;
+    border-radius: 27px;
+    border: 1.5px dashed rgba(226, 176, 74, .55);
+    animation: spin 26s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ------------------- 10. Aksesibilitas: kurangi gerakan ------------------- */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: .01ms !important;
+    }
+}
+
+/* ---------- Tambahan Tahap 2: RBAC ---------- */
+.avatar-sm {
+    width: 36px; height: 36px; border-radius: 50%;
+    background: linear-gradient(135deg, var(--brand-light), var(--brand));
+    color: #fff; display: inline-flex; align-items: center; justify-content: center;
+    font-weight: 700; font-size: .85rem; flex-shrink: 0;
+}
+.text-brand { color: var(--brand); }
+.bg-brand-soft { background: var(--brand-soft); }
+
+
+/* ---------- Kalender Piket (Tahap 8) ---------- */
+.cal-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 4px;
+}
+.cal-head {
+    text-align: center; font-size: .72rem; font-weight: 700;
+    text-transform: uppercase; letter-spacing: .05em;
+    color: var(--text-muted); padding: .25rem 0;
+}
+.cal-cell {
+    min-height: 64px; border: 1px solid var(--line);
+    border-radius: 8px; padding: .3rem; background: #fff;
+    font-size: .72rem; overflow: hidden;
+}
+.cal-empty { border: 0; background: transparent; }
+.cal-day { cursor: pointer; transition: border-color .15s, box-shadow .15s; }
+.cal-day:hover { border-color: var(--brand-light); box-shadow: 0 0 0 2px rgba(20,184,166,.15); }
+.cal-today { border-color: var(--brand); background: var(--brand-soft); }
+.cal-has-event { background: #fbfdfd; }
+.cal-num { font-weight: 700; display: flex; justify-content: space-between; align-items: center; }
+.cal-dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin-left: 2px; }
+.cal-ev { color: var(--text-muted); white-space: nowrap; text-overflow: ellipsis; }
+@media (max-width: 767.98px) {
+    .cal-cell { min-height: 44px; padding: .15rem; }
+    .cal-ev { display: none; }
+}
+
+
+/* ============================================================
+   TAHAP 15 — UI/UX FINAL POLISH
+   ============================================================ */
+
+/* ---------- Breadcrumb ---------- */
+.breadcrumb {
+    --bs-breadcrumb-divider-color: #94a3b8;
+    background: #fff; border: 1px solid var(--line);
+    border-radius: 10px; padding: .45rem .9rem;
+}
+.breadcrumb a { color: var(--brand); text-decoration: none; font-weight: 600; }
+.breadcrumb a:hover { text-decoration: underline; }
+.breadcrumb-item.active { color: var(--text-muted); font-weight: 600; }
+
+/* ---------- Tabel: header tetap terbaca saat scroll ---------- */
+.table thead th { position: sticky; top: 0; z-index: 1; }
+
+/* ---------- Fokus & sentuhan halus ---------- */
+.btn:focus-visible, .form-control:focus-visible, .form-select:focus-visible {
+    outline: 2px solid rgba(20,184,166,.5); outline-offset: 1px;
+}
+.card { overflow: hidden; } /* jaga radius anak elemen (badge, progress) */
+
+/* ---------- Badge di tabel jangan wrap ---------- */
+.table td .badge { white-space: nowrap; }
+
+/* ---------- Print: sembunyikan chrome aplikasi ---------- */
+@media print {
+    .sidebar, .main-wrapper .navbar, .breadcrumb, .form-delete, .no-print { display: none !important; }
+    .main-wrapper { margin-left: 0 !important; }
+}
+
+/* ---------- Mobile: kartu metrik 2 kolom rapi ---------- */
+@media (max-width: 575.98px) {
+    .stat-icon { width: 44px; height: 44px; font-size: 1.2rem; }
+    .card-body .fs-4 { font-size: 1.1rem !important; }
+}

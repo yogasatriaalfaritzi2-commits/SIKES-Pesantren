@@ -1,0 +1,222 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1120" viewBox="0 0 2000 1120">
+<rect x="0" y="0" width="2000" height="1120" fill="#FFFFFF"/>
+<text x="60.0" y="68.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#1F2933" text-anchor="start">Aktor &amp; peran: siapa boleh melakukan apa</text>
+<text x="60.0" y="104.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" fill="#52606D" text-anchor="start">Sepuluh peran internal, 57 permission format modul.aksi, dan penegakan akses di server.</text>
+<rect x="60.0" y="150.0" width="360.0" height="236.0" rx="12" fill="#FFFFFF" stroke="#52606D" stroke-width="2"/>
+<rect x="60.0" y="150.0" width="360.0" height="46.0" rx="12" fill="#E4EAF2" stroke="#52606D" stroke-width="2"/>
+<rect x="60.0" y="184.0" width="360.0" height="12.0" rx="0" fill="#E4EAF2" stroke="#E4EAF2" stroke-width="0"/>
+<circle cx="90" cy="160" r="7" fill="none" stroke="#3E5C76" stroke-width="2"/>
+<line x1="90.0" y1="167.0" x2="90.0" y2="181.0" stroke="#3E5C76" stroke-width="2"/>
+<line x1="80.0" y1="173.0" x2="100.0" y2="173.0" stroke="#3E5C76" stroke-width="2"/>
+<line x1="90.0" y1="181.0" x2="82.0" y2="192.0" stroke="#3E5C76" stroke-width="2"/>
+<line x1="90.0" y1="181.0" x2="98.0" y2="192.0" stroke="#3E5C76" stroke-width="2"/>
+<text x="116.0" y="174.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#3E5C76" text-anchor="start">Super Admin</text>
+<text x="116.0" y="190.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#52606D" text-anchor="start">akses penuh</text>
+<circle cx="76" cy="221" r="2.5" fill="#3E5C76"/>
+<text x="88.0" y="226.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">is_system = 1, tidak memakai pivot</text>
+<circle cx="76" cy="253" r="2.5" fill="#3E5C76"/>
+<text x="88.0" y="258.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">Kelola pengguna, role, permission</text>
+<circle cx="76" cy="285" r="2.5" fill="#3E5C76"/>
+<text x="88.0" y="290.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">Konfigurasi model AI + audit log</text>
+<circle cx="76" cy="317" r="2.5" fill="#3E5C76"/>
+<text x="88.0" y="322.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">Semua modul, termasuk dashboard eksekutif</text>
+<rect x="440.0" y="150.0" width="360.0" height="236.0" rx="12" fill="#FFFFFF" stroke="#52606D" stroke-width="2"/>
+<rect x="440.0" y="150.0" width="360.0" height="46.0" rx="12" fill="#E3F0E6" stroke="#52606D" stroke-width="2"/>
+<rect x="440.0" y="184.0" width="360.0" height="12.0" rx="0" fill="#E3F0E6" stroke="#E3F0E6" stroke-width="0"/>
+<circle cx="470" cy="160" r="7" fill="none" stroke="#2F6B45" stroke-width="2"/>
+<line x1="470.0" y1="167.0" x2="470.0" y2="181.0" stroke="#2F6B45" stroke-width="2"/>
+<line x1="460.0" y1="173.0" x2="480.0" y2="173.0" stroke="#2F6B45" stroke-width="2"/>
+<line x1="470.0" y1="181.0" x2="462.0" y2="192.0" stroke="#2F6B45" stroke-width="2"/>
+<line x1="470.0" y1="181.0" x2="478.0" y2="192.0" stroke="#2F6B45" stroke-width="2"/>
+<text x="496.0" y="174.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#2F6B45" text-anchor="start">Tenaga Medis</text>
+<text x="496.0" y="190.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#52606D" text-anchor="start">22 izin</text>
+<circle cx="456" cy="221" r="2.5" fill="#2F6B45"/>
+<text x="468.0" y="226.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">Pemeriksaan, rekam medis, rujukan, BPJS</text>
+<circle cx="456" cy="253" r="2.5" fill="#2F6B45"/>
+<text x="468.0" y="258.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">Obat: stok, pemakaian, kedaluwarsa</text>
+<circle cx="456" cy="285" r="2.5" fill="#2F6B45"/>
+<text x="468.0" y="290.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">Izin sakit dan surat keterangan</text>
+<circle cx="456" cy="317" r="2.5" fill="#2F6B45"/>
+<text x="468.0" y="322.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">Tracing kasus menular + laporan</text>
+<rect x="820.0" y="150.0" width="360.0" height="236.0" rx="12" fill="#FFFFFF" stroke="#52606D" stroke-width="2"/>
+<rect x="820.0" y="150.0" width="360.0" height="46.0" rx="12" fill="#E3F0E6" stroke="#52606D" stroke-width="2"/>
+<rect x="820.0" y="184.0" width="360.0" height="12.0" rx="0" fill="#E3F0E6" stroke="#E3F0E6" stroke-width="0"/>
+<circle cx="850" cy="160" r="7" fill="none" stroke="#2F6B45" stroke-width="2"/>
+<line x1="850.0" y1="167.0" x2="850.0" y2="181.0" stroke="#2F6B45" stroke-width="2"/>
+<line x1="840.0" y1="173.0" x2="860.0" y2="173.0" stroke="#2F6B45" stroke-width="2"/>
+<line x1="850.0" y1="181.0" x2="842.0" y2="192.0" stroke="#2F6B45" stroke-width="2"/>
+<line x1="850.0" y1="181.0" x2="858.0" y2="192.0" stroke="#2F6B45" stroke-width="2"/>
+<text x="876.0" y="174.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#2F6B45" text-anchor="start">Pengasuhan</text>
+<text x="876.0" y="190.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#52606D" text-anchor="start">16 izin</text>
+<circle cx="836" cy="221" r="2.5" fill="#2F6B45"/>
+<text x="848.0" y="226.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">Data asrama, kamar, dan wali</text>
+<circle cx="836" cy="253" r="2.5" fill="#2F6B45"/>
+<text x="848.0" y="258.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">Piket dan inspeksi sanitasi kamar</text>
+<circle cx="836" cy="285" r="2.5" fill="#2F6B45"/>
+<text x="848.0" y="290.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">Izin kepulangan tahap pengasuhan</text>
+<circle cx="836" cy="317" r="2.5" fill="#2F6B45"/>
+<text x="848.0" y="322.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">Lihat surat dan data santri</text>
+<rect x="1200.0" y="150.0" width="360.0" height="236.0" rx="12" fill="#FFFFFF" stroke="#52606D" stroke-width="2"/>
+<rect x="1200.0" y="150.0" width="360.0" height="46.0" rx="12" fill="#FBF0DC" stroke="#52606D" stroke-width="2"/>
+<rect x="1200.0" y="184.0" width="360.0" height="12.0" rx="0" fill="#FBF0DC" stroke="#FBF0DC" stroke-width="0"/>
+<circle cx="1230" cy="160" r="7" fill="none" stroke="#8A5B13" stroke-width="2"/>
+<line x1="1230.0" y1="167.0" x2="1230.0" y2="181.0" stroke="#8A5B13" stroke-width="2"/>
+<line x1="1220.0" y1="173.0" x2="1240.0" y2="173.0" stroke="#8A5B13" stroke-width="2"/>
+<line x1="1230.0" y1="181.0" x2="1222.0" y2="192.0" stroke="#8A5B13" stroke-width="2"/>
+<line x1="1230.0" y1="181.0" x2="1238.0" y2="192.0" stroke="#8A5B13" stroke-width="2"/>
+<text x="1256.0" y="174.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#8A5B13" text-anchor="start">Keamanan</text>
+<text x="1256.0" y="190.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#52606D" text-anchor="start">9 izin</text>
+<circle cx="1216" cy="221" r="2.5" fill="#8A5B13"/>
+<text x="1228.0" y="226.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">Buku tamu dan pos keamanan</text>
+<circle cx="1216" cy="253" r="2.5" fill="#8A5B13"/>
+<text x="1228.0" y="258.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">Izin kepulangan tahap gerbang</text>
+<circle cx="1216" cy="285" r="2.5" fill="#8A5B13"/>
+<text x="1228.0" y="290.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">Lihat piket dan sanitasi</text>
+<circle cx="1216" cy="317" r="2.5" fill="#8A5B13"/>
+<text x="1228.0" y="322.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">Lihat data santri</text>
+<rect x="1580.0" y="150.0" width="360.0" height="236.0" rx="12" fill="#FFFFFF" stroke="#52606D" stroke-width="2"/>
+<rect x="1580.0" y="150.0" width="360.0" height="46.0" rx="12" fill="#E4EAF2" stroke="#52606D" stroke-width="2"/>
+<rect x="1580.0" y="184.0" width="360.0" height="12.0" rx="0" fill="#E4EAF2" stroke="#E4EAF2" stroke-width="0"/>
+<circle cx="1610" cy="160" r="7" fill="none" stroke="#3E5C76" stroke-width="2"/>
+<line x1="1610.0" y1="167.0" x2="1610.0" y2="181.0" stroke="#3E5C76" stroke-width="2"/>
+<line x1="1600.0" y1="173.0" x2="1620.0" y2="173.0" stroke="#3E5C76" stroke-width="2"/>
+<line x1="1610.0" y1="181.0" x2="1602.0" y2="192.0" stroke="#3E5C76" stroke-width="2"/>
+<line x1="1610.0" y1="181.0" x2="1618.0" y2="192.0" stroke="#3E5C76" stroke-width="2"/>
+<text x="1636.0" y="174.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#3E5C76" text-anchor="start">Admin Santri</text>
+<text x="1636.0" y="190.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#52606D" text-anchor="start">14 izin</text>
+<circle cx="1596" cy="221" r="2.5" fill="#3E5C76"/>
+<text x="1608.0" y="226.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">CRUD santri dan wali santri</text>
+<circle cx="1596" cy="253" r="2.5" fill="#3E5C76"/>
+<text x="1608.0" y="258.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">BPJS dan penempatan asrama</text>
+<circle cx="1596" cy="285" r="2.5" fill="#3E5C76"/>
+<text x="1608.0" y="290.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">Ekspor laporan</text>
+<circle cx="1596" cy="317" r="2.5" fill="#3E5C76"/>
+<text x="1608.0" y="322.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">Lihat surat izin</text>
+<rect x="60.0" y="412.0" width="360.0" height="236.0" rx="12" fill="#FFFFFF" stroke="#52606D" stroke-width="2"/>
+<rect x="60.0" y="412.0" width="360.0" height="46.0" rx="12" fill="#FBF0DC" stroke="#52606D" stroke-width="2"/>
+<rect x="60.0" y="446.0" width="360.0" height="12.0" rx="0" fill="#FBF0DC" stroke="#FBF0DC" stroke-width="0"/>
+<circle cx="90" cy="422" r="7" fill="none" stroke="#8A5B13" stroke-width="2"/>
+<line x1="90.0" y1="429.0" x2="90.0" y2="443.0" stroke="#8A5B13" stroke-width="2"/>
+<line x1="80.0" y1="435.0" x2="100.0" y2="435.0" stroke="#8A5B13" stroke-width="2"/>
+<line x1="90.0" y1="443.0" x2="82.0" y2="454.0" stroke="#8A5B13" stroke-width="2"/>
+<line x1="90.0" y1="443.0" x2="98.0" y2="454.0" stroke="#8A5B13" stroke-width="2"/>
+<text x="116.0" y="436.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#8A5B13" text-anchor="start">Dapur / Gizi</text>
+<text x="116.0" y="452.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#52606D" text-anchor="start">4 izin</text>
+<circle cx="76" cy="483" r="2.5" fill="#8A5B13"/>
+<text x="88.0" y="488.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">Menu dan jadwal gizi</text>
+<circle cx="76" cy="515" r="2.5" fill="#8A5B13"/>
+<text x="88.0" y="520.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">Distribusi porsi harian</text>
+<circle cx="76" cy="547" r="2.5" fill="#8A5B13"/>
+<text x="88.0" y="552.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">Lihat rekomendasi gizi</text>
+<circle cx="76" cy="579" r="2.5" fill="#8A5B13"/>
+<text x="88.0" y="584.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">Tidak menyentuh data medis</text>
+<rect x="440.0" y="412.0" width="360.0" height="236.0" rx="12" fill="#FFFFFF" stroke="#52606D" stroke-width="2"/>
+<rect x="440.0" y="412.0" width="360.0" height="46.0" rx="12" fill="#EDE7F6" stroke="#52606D" stroke-width="2"/>
+<rect x="440.0" y="446.0" width="360.0" height="12.0" rx="0" fill="#EDE7F6" stroke="#EDE7F6" stroke-width="0"/>
+<circle cx="470" cy="422" r="7" fill="none" stroke="#4B3A72" stroke-width="2"/>
+<line x1="470.0" y1="429.0" x2="470.0" y2="443.0" stroke="#4B3A72" stroke-width="2"/>
+<line x1="460.0" y1="435.0" x2="480.0" y2="435.0" stroke="#4B3A72" stroke-width="2"/>
+<line x1="470.0" y1="443.0" x2="462.0" y2="454.0" stroke="#4B3A72" stroke-width="2"/>
+<line x1="470.0" y1="443.0" x2="478.0" y2="454.0" stroke="#4B3A72" stroke-width="2"/>
+<text x="496.0" y="436.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#4B3A72" text-anchor="start">Bendahara</text>
+<text x="496.0" y="452.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#52606D" text-anchor="start">5 izin</text>
+<circle cx="456" cy="483" r="2.5" fill="#4B3A72"/>
+<text x="468.0" y="488.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">Pemasukan dan pengeluaran</text>
+<circle cx="456" cy="515" r="2.5" fill="#4B3A72"/>
+<text x="468.0" y="520.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">Kelola keuangan pondok</text>
+<circle cx="456" cy="547" r="2.5" fill="#4B3A72"/>
+<text x="468.0" y="552.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">Ekspor laporan keuangan</text>
+<circle cx="456" cy="579" r="2.5" fill="#4B3A72"/>
+<text x="468.0" y="584.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">Lihat stok obat untuk pengadaan</text>
+<rect x="820.0" y="412.0" width="360.0" height="236.0" rx="12" fill="#FFFFFF" stroke="#52606D" stroke-width="2"/>
+<rect x="820.0" y="412.0" width="360.0" height="46.0" rx="12" fill="#EDE7F6" stroke="#52606D" stroke-width="2"/>
+<rect x="820.0" y="446.0" width="360.0" height="12.0" rx="0" fill="#EDE7F6" stroke="#EDE7F6" stroke-width="0"/>
+<circle cx="850" cy="422" r="7" fill="none" stroke="#4B3A72" stroke-width="2"/>
+<line x1="850.0" y1="429.0" x2="850.0" y2="443.0" stroke="#4B3A72" stroke-width="2"/>
+<line x1="840.0" y1="435.0" x2="860.0" y2="435.0" stroke="#4B3A72" stroke-width="2"/>
+<line x1="850.0" y1="443.0" x2="842.0" y2="454.0" stroke="#4B3A72" stroke-width="2"/>
+<line x1="850.0" y1="443.0" x2="858.0" y2="454.0" stroke="#4B3A72" stroke-width="2"/>
+<text x="876.0" y="436.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#4B3A72" text-anchor="start">Kyai / Pimpinan</text>
+<text x="876.0" y="452.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#52606D" text-anchor="start">20 izin</text>
+<circle cx="836" cy="483" r="2.5" fill="#4B3A72"/>
+<text x="848.0" y="488.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">Dashboard eksekutif dan laporan</text>
+<circle cx="836" cy="515" r="2.5" fill="#4B3A72"/>
+<text x="848.0" y="520.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">Lihat semua modul (read-only)</text>
+<circle cx="836" cy="547" r="2.5" fill="#4B3A72"/>
+<text x="848.0" y="552.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">Lihat log aktivitas</text>
+<circle cx="836" cy="579" r="2.5" fill="#4B3A72"/>
+<text x="848.0" y="584.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">Menyetujui izin kepulangan</text>
+<rect x="1200.0" y="412.0" width="360.0" height="236.0" rx="12" fill="#FFFFFF" stroke="#52606D" stroke-width="2"/>
+<rect x="1200.0" y="412.0" width="360.0" height="46.0" rx="12" fill="#F5F7FA" stroke="#52606D" stroke-width="2"/>
+<rect x="1200.0" y="446.0" width="360.0" height="12.0" rx="0" fill="#F5F7FA" stroke="#F5F7FA" stroke-width="0"/>
+<circle cx="1230" cy="422" r="7" fill="none" stroke="#52606D" stroke-width="2"/>
+<line x1="1230.0" y1="429.0" x2="1230.0" y2="443.0" stroke="#52606D" stroke-width="2"/>
+<line x1="1220.0" y1="435.0" x2="1240.0" y2="435.0" stroke="#52606D" stroke-width="2"/>
+<line x1="1230.0" y1="443.0" x2="1222.0" y2="454.0" stroke="#52606D" stroke-width="2"/>
+<line x1="1230.0" y1="443.0" x2="1238.0" y2="454.0" stroke="#52606D" stroke-width="2"/>
+<text x="1256.0" y="436.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#52606D" text-anchor="start">Santri</text>
+<text x="1256.0" y="452.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#52606D" text-anchor="start">1 izin</text>
+<circle cx="1216" cy="483" r="2.5" fill="#52606D"/>
+<text x="1228.0" y="488.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">profile.edit (profil sendiri)</text>
+<circle cx="1216" cy="515" r="2.5" fill="#52606D"/>
+<text x="1228.0" y="520.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">Rute lain ditolak 403 di server</text>
+<circle cx="1216" cy="547" r="2.5" fill="#52606D"/>
+<text x="1228.0" y="552.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">Tidak melihat data santri lain</text>
+<circle cx="1216" cy="579" r="2.5" fill="#52606D"/>
+<text x="1228.0" y="584.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">Permintaan izin lewat alur kepulangan</text>
+<rect x="1580.0" y="412.0" width="360.0" height="236.0" rx="12" fill="#FFFFFF" stroke="#52606D" stroke-width="2"/>
+<rect x="1580.0" y="412.0" width="360.0" height="46.0" rx="12" fill="#F5F7FA" stroke="#52606D" stroke-width="2"/>
+<rect x="1580.0" y="446.0" width="360.0" height="12.0" rx="0" fill="#F5F7FA" stroke="#F5F7FA" stroke-width="0"/>
+<circle cx="1610" cy="422" r="7" fill="none" stroke="#52606D" stroke-width="2"/>
+<line x1="1610.0" y1="429.0" x2="1610.0" y2="443.0" stroke="#52606D" stroke-width="2"/>
+<line x1="1600.0" y1="435.0" x2="1620.0" y2="435.0" stroke="#52606D" stroke-width="2"/>
+<line x1="1610.0" y1="443.0" x2="1602.0" y2="454.0" stroke="#52606D" stroke-width="2"/>
+<line x1="1610.0" y1="443.0" x2="1618.0" y2="454.0" stroke="#52606D" stroke-width="2"/>
+<text x="1636.0" y="436.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#52606D" text-anchor="start">Wali Santri</text>
+<text x="1636.0" y="452.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#52606D" text-anchor="start">1 izin</text>
+<circle cx="1596" cy="483" r="2.5" fill="#52606D"/>
+<text x="1608.0" y="488.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">profile.edit (profil sendiri)</text>
+<circle cx="1596" cy="515" r="2.5" fill="#52606D"/>
+<text x="1608.0" y="520.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">Rute lain ditolak 403 di server</text>
+<circle cx="1596" cy="547" r="2.5" fill="#52606D"/>
+<text x="1608.0" y="552.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">Tidak melihat rekam medis anak</text>
+<circle cx="1596" cy="579" r="2.5" fill="#52606D"/>
+<text x="1608.0" y="584.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2933" text-anchor="start">Verifikasi surat lewat token publik</text>
+<rect x="60.0" y="730.0" width="1880.0" height="320.0" rx="12" fill="#FFFFFF" stroke="#52606D" stroke-width="2"/>
+<text x="84.0" y="766.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#3E5C76" text-anchor="start">PENEGAKAN DI SERVER, BUKAN DI TOMBOL UI</text>
+<text x="84.0" y="792.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#52606D" text-anchor="start">Urutan yang sama dipakai semua rute; tombol yang disembunyikan hanya kosmetik.</text>
+<rect x="84.0" y="820.0" width="344.0" height="108.0" rx="8" fill="#F5F7FA" stroke="#52606D" stroke-width="2"/>
+<text x="256.0" y="848.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#1F2933" text-anchor="middle">Router</text>
+<text x="256.0" y="870.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11.5" font-weight="normal" fill="#52606D" text-anchor="middle">routes.php</text>
+<text x="256.0" y="887.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11.5" font-weight="normal" fill="#52606D" text-anchor="middle">middleware per rute:</text>
+<text x="256.0" y="904.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11.5" font-weight="normal" fill="#52606D" text-anchor="middle">auth / permission</text>
+<line x1="430.0" y1="874.0" x2="448.0" y2="874.0" stroke="#3E5C76" stroke-width="2"/>
+<polygon points="448.0,874.0 436.0,867.0 436.0,881.0" fill="#3E5C76" stroke="none"/>
+<rect x="450.0" y="820.0" width="344.0" height="108.0" rx="8" fill="#F5F7FA" stroke="#52606D" stroke-width="2"/>
+<text x="622.0" y="848.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#1F2933" text-anchor="middle">Controller</text>
+<text x="622.0" y="870.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11.5" font-weight="normal" fill="#52606D" text-anchor="middle">requirePermission()</text>
+<text x="622.0" y="887.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11.5" font-weight="normal" fill="#52606D" text-anchor="middle">menolak sebelum query</text>
+<text x="622.0" y="904.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11.5" font-weight="normal" fill="#52606D" text-anchor="middle">berjalan → 403</text>
+<line x1="796.0" y1="874.0" x2="814.0" y2="874.0" stroke="#3E5C76" stroke-width="2"/>
+<polygon points="814.0,874.0 802.0,867.0 802.0,881.0" fill="#3E5C76" stroke="none"/>
+<rect x="816.0" y="820.0" width="344.0" height="108.0" rx="8" fill="#F5F7FA" stroke="#52606D" stroke-width="2"/>
+<text x="988.0" y="848.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#1F2933" text-anchor="middle">Model</text>
+<text x="988.0" y="870.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11.5" font-weight="normal" fill="#52606D" text-anchor="middle">query hanya jalan</text>
+<text x="988.0" y="887.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11.5" font-weight="normal" fill="#52606D" text-anchor="middle">setelah izin lolos;</text>
+<text x="988.0" y="904.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11.5" font-weight="normal" fill="#52606D" text-anchor="middle">PDO prepared statement</text>
+<line x1="1162.0" y1="874.0" x2="1180.0" y2="874.0" stroke="#3E5C76" stroke-width="2"/>
+<polygon points="1180.0,874.0 1168.0,867.0 1168.0,881.0" fill="#3E5C76" stroke="none"/>
+<rect x="1182.0" y="820.0" width="344.0" height="108.0" rx="8" fill="#F5F7FA" stroke="#52606D" stroke-width="2"/>
+<text x="1354.0" y="848.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#1F2933" text-anchor="middle">Audit</text>
+<text x="1354.0" y="870.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11.5" font-weight="normal" fill="#52606D" text-anchor="middle">setiap aksi penting</text>
+<text x="1354.0" y="887.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11.5" font-weight="normal" fill="#52606D" text-anchor="middle">masuk activity_logs</text>
+<text x="1354.0" y="904.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11.5" font-weight="normal" fill="#52606D" text-anchor="middle">(76 pemanggilan)</text>
+<line x1="1528.0" y1="874.0" x2="1546.0" y2="874.0" stroke="#3E5C76" stroke-width="2"/>
+<polygon points="1546.0,874.0 1534.0,867.0 1534.0,881.0" fill="#3E5C76" stroke="none"/>
+<rect x="1548.0" y="820.0" width="344.0" height="108.0" rx="8" fill="#F5F7FA" stroke="#52606D" stroke-width="2"/>
+<text x="1720.0" y="848.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#1F2933" text-anchor="middle">Session</text>
+<text x="1720.0" y="870.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11.5" font-weight="normal" fill="#52606D" text-anchor="middle">permission dimuat</text>
+<text x="1720.0" y="887.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11.5" font-weight="normal" fill="#52606D" text-anchor="middle">ulang tiap request;</text>
+<text x="1720.0" y="904.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11.5" font-weight="normal" fill="#52606D" text-anchor="middle">role berubah → segera</text>
+<text x="84.0" y="962.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="11.5" font-weight="normal" fill="#52606D" text-anchor="start">Bukti kode: app/config/routes.php · app/core/Router.php · app/core/Auth.php · app/core/Controller.php · app/core/Database.php</text>
+</svg>

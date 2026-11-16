@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="900" viewBox="0 0 2000 900">
+<rect x="0" y="0" width="2000" height="900" fill="#FFFFFF"/>
+<text x="1000.0" y="44.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#3E5C76" text-anchor="middle">ACTIVITY DIAGRAM — E-SURAT IZIN &amp; VERIFIKASI QR PUBLIK</text>
+<text x="1000.0" y="72.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" fill="#52606D" text-anchor="middle">SuratIzinController.php — satu-satunya rute publik tanpa login: GET /verifikasi/{token} (routes.php:17)</text>
+<circle cx="240" cy="200" r="13" fill="#1F2933"/>
+<rect x="300.0" y="172.0" width="240.0" height="56.0" rx="14" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="420.0" y="196.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">Petugas terbitkan</text>
+<text x="420.0" y="214.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">surat izin</text>
+<rect x="600.0" y="172.0" width="240.0" height="56.0" rx="14" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="720.0" y="196.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">Simpan + token</text>
+<text x="720.0" y="214.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">unik per surat</text>
+<rect x="900.0" y="172.0" width="240.0" height="56.0" rx="14" fill="#E3F0E6" stroke="#2F6B45" stroke-width="2"/>
+<text x="1020.0" y="196.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">Cetak PDF + QR</text>
+<text x="1020.0" y="214.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">cetak.php</text>
+<rect x="1200.0" y="172.0" width="240.0" height="56.0" rx="14" fill="#FBF0DC" stroke="#8A5B13" stroke-width="2"/>
+<text x="1320.0" y="196.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">Santri / wali bawa</text>
+<text x="1320.0" y="214.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">surat ke gerbang</text>
+<rect x="1500.0" y="172.0" width="260.0" height="56.0" rx="14" fill="#EDE7F6" stroke="#4B3A72" stroke-width="2"/>
+<text x="1630.0" y="196.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">Petugas scan QR</text>
+<text x="1630.0" y="214.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">→ /verifikasi/{token}</text>
+<polygon points="1630,290.0 1750.0,340 1630,390.0 1510.0,340" fill="#FBF0DC" stroke="#8A5B13" stroke-width="2"/>
+<text x="1630.0" y="345.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#8A5B13" text-anchor="middle">Token valid &amp;
+belum dibatalkan?</text>
+<rect x="1180.0" y="312.0" width="260.0" height="56.0" rx="14" fill="#E3F0E6" stroke="#2F6B45" stroke-width="2"/>
+<text x="1310.0" y="336.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">Halaman publik:</text>
+<text x="1310.0" y="354.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">SAH + identitas</text>
+<rect x="760.0" y="312.0" width="260.0" height="56.0" rx="14" fill="#F7E4E4" stroke="#8C2F2F" stroke-width="2"/>
+<text x="890.0" y="336.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">Halaman publik:</text>
+<text x="890.0" y="354.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">TIDAK VALID</text>
+<rect x="1180.0" y="452.0" width="260.0" height="56.0" rx="14" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="1310.0" y="476.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">Catat diverifikasi</text>
+<text x="1310.0" y="494.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">(waktu, IP, petugas)</text>
+<rect x="760.0" y="452.0" width="260.0" height="56.0" rx="14" fill="#F7E4E4" stroke="#8C2F2F" stroke-width="2"/>
+<text x="890.0" y="476.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">Batal surat</text>
+<text x="890.0" y="494.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">(batal())</text>
+<circle cx="400" cy="480" r="13" fill="#1F2933"/>
+<circle cx="400" cy="480" r="19" fill="none" stroke="#1F2933" stroke-width="3"/>
+<line x1="253.0" y1="200.0" x2="300.0" y2="200.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="300.0,200.0 288.0,193.0 288.0,207.0" fill="#52606D" stroke="none"/>
+<line x1="540.0" y1="200.0" x2="600.0" y2="200.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="600.0,200.0 588.0,193.0 588.0,207.0" fill="#52606D" stroke="none"/>
+<line x1="840.0" y1="200.0" x2="900.0" y2="200.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="900.0,200.0 888.0,193.0 888.0,207.0" fill="#52606D" stroke="none"/>
+<line x1="1140.0" y1="200.0" x2="1200.0" y2="200.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="1200.0,200.0 1188.0,193.0 1188.0,207.0" fill="#52606D" stroke="none"/>
+<line x1="1440.0" y1="200.0" x2="1500.0" y2="200.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="1500.0,200.0 1488.0,193.0 1488.0,207.0" fill="#52606D" stroke="none"/>
+<line x1="1630.0" y1="228.0" x2="1630.0" y2="290.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="1630.0,290.0 1637.0,278.0 1623.0,278.0" fill="#52606D" stroke="none"/>
+<line x1="1510.0" y1="340.0" x2="1440.0" y2="340.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="1440.0,340.0 1452.0,347.0 1452.0,333.0" fill="#52606D" stroke="none"/>
+<text x="1475.0" y="330.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#52606D" text-anchor="middle">Ya</text>
+<line x1="1310.0" y1="368.0" x2="1310.0" y2="452.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="1310.0,452.0 1317.0,440.0 1303.0,440.0" fill="#52606D" stroke="none"/>
+<line x1="1440.0" y1="480.0" x2="1520.0" y2="480.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="1520.0,480.0 1508.0,473.0 1508.0,487.0" fill="#52606D" stroke="none"/>
+<circle cx="1545" cy="480" r="13" fill="#1F2933"/>
+<circle cx="1545" cy="480" r="19" fill="none" stroke="#1F2933" stroke-width="3"/>
+<line x1="760.0" y1="480.0" x2="419.0" y2="480.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="419.0,480.0 431.0,487.0 431.0,473.0" fill="#52606D" stroke="none"/>
+<line x1="890.0" y1="452.0" x2="890.0" y2="368.0" stroke="#52606D" stroke-width="2" stroke-dasharray="7 5"/>
+<polygon points="890.0,368.0 883.0,380.0 897.0,380.0" fill="#52606D" stroke="none"/>
+<text x="986.0" y="410.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#52606D" text-anchor="middle">batal → QR mati</text>
+<line x1="1630.0" y1="390.0" x2="1630.0" y2="560.0" stroke="#52606D" stroke-width="2"/>
+<line x1="1630.0" y1="560.0" x2="1100.0" y2="560.0" stroke="#52606D" stroke-width="2"/>
+<line x1="1100.0" y1="560.0" x2="1100.0" y2="340.0" stroke="#52606D" stroke-width="2"/>
+<line x1="1100.0" y1="340.0" x2="1020.0" y2="340.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="1020.0,340.0 1032.0,347.0 1032.0,333.0" fill="#52606D" stroke="none"/>
+<text x="1672.0" y="480.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#52606D" text-anchor="middle">Tidak</text>
+<rect x="100.0" y="600.0" width="880.0" height="240.0" rx="4" fill="#FBF0DC" stroke="#8A5B13" stroke-width="1.5"/>
+<text x="112.0" y="622.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">MENGAPA INI BAGUS UNTUK PRESENTASI</text>
+<text x="112.0" y="640.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  Aktor EKSTERNAL tanpa akun (petugas gerbang / wali) lewat rute publik ber-token</text>
+<text x="112.0" y="658.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  Verifikasi server-side: token dicek ke DB, bukan klaim di kertas → tidak bisa dipalsukan lewat UI</text>
+<text x="112.0" y="676.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  Pembatalan surat langsung membuat QR mati → ada alur balik (batal → tidak valid)</text>
+<text x="112.0" y="694.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  Kolom 'diverifikasi' tercatat di DB (sikes_db.sql:503) sebagai jejak audit</text>
+<text x="112.0" y="712.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  Menunjukkan batas keamanan: rute publik permission null, tapi tetap butuh token acak</text>
+<rect x="1020.0" y="600.0" width="880.0" height="240.0" rx="4" fill="#FBF0DC" stroke="#8A5B13" stroke-width="1.5"/>
+<text x="1032.0" y="622.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">AKTOR &amp; PERMISSION</text>
+<text x="1032.0" y="640.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  Admin Santri / Pengasuhan → surat.create, surat.cetak, surat.batal</text>
+<text x="1032.0" y="658.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  Petugas gerbang / publik → GET /verifikasi/{token} (tanpa login)</text>
+<text x="1032.0" y="676.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  Super Admin → audit: siapa menerbitkan, siapa memverifikasi, dari IP mana</text>
+<text x="1032.0" y="694.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  Alur ini TIDAK memakai LLM — cocok untuk menegaskan bahwa AI hanya di modul asisten</text>
+<text x="1032.0" y="712.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  QR = tautan, bukan penyimpanan data medis: hanya status sah/tidak + identitas singkat</text>
+</svg>

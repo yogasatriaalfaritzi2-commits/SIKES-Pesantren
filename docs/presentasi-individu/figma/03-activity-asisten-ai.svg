@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1420" viewBox="0 0 2000 1420">
+<rect x="0" y="0" width="2000" height="1420" fill="#FFFFFF"/>
+<text x="1000.0" y="44.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#3E5C76" text-anchor="middle">ACTIVITY DIAGRAM — ASISTEN AI HYBRID (3 LAPIS KECERDASAN)</text>
+<text x="1000.0" y="72.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" fill="#52606D" text-anchor="middle">Lapis 1 intent lokal (tanpa API) · Lapis 2 heuristik/analitik · Lapis 3 LLM Groq + failover — jawaban atas syarat 'bukan sekadar CRUD/notifikasi'</text>
+<rect x="100.0" y="100.0" width="1800.0" height="150.0" rx="0" fill="#FFFFFF" stroke="#2F6B45" stroke-width="2"/>
+<rect x="100.0" y="100.0" width="150.0" height="150.0" rx="0" fill="#E9EDF1" stroke="#2F6B45" stroke-width="2"/>
+<text x="175.0" y="170.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#2F6B45" text-anchor="middle">Pengguna</text>
+<text x="175.0" y="190.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#2F6B45" text-anchor="middle">(role apa pun)</text>
+<rect x="100.0" y="250.0" width="1800.0" height="190.0" rx="0" fill="#FFFFFF" stroke="#3E5C76" stroke-width="2"/>
+<rect x="100.0" y="250.0" width="150.0" height="190.0" rx="0" fill="#E9EDF1" stroke="#3E5C76" stroke-width="2"/>
+<text x="175.0" y="330.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#3E5C76" text-anchor="middle">Lapis 1</text>
+<text x="175.0" y="350.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#3E5C76" text-anchor="middle">Intent router</text>
+<text x="175.0" y="370.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#3E5C76" text-anchor="middle">+ RBAC</text>
+<rect x="100.0" y="440.0" width="1800.0" height="190.0" rx="0" fill="#FFFFFF" stroke="#8A5B13" stroke-width="2"/>
+<rect x="100.0" y="440.0" width="150.0" height="190.0" rx="0" fill="#E9EDF1" stroke="#8A5B13" stroke-width="2"/>
+<text x="175.0" y="520.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#8A5B13" text-anchor="middle">Lapis 2</text>
+<text x="175.0" y="540.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#8A5B13" text-anchor="middle">Mesin analitik</text>
+<text x="175.0" y="560.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#8A5B13" text-anchor="middle">&amp; heuristik</text>
+<rect x="100.0" y="630.0" width="1800.0" height="300.0" rx="0" fill="#FFFFFF" stroke="#4B3A72" stroke-width="2"/>
+<rect x="100.0" y="630.0" width="150.0" height="300.0" rx="0" fill="#E9EDF1" stroke="#4B3A72" stroke-width="2"/>
+<text x="175.0" y="765.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#4B3A72" text-anchor="middle">Lapis 3</text>
+<text x="175.0" y="785.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#4B3A72" text-anchor="middle">LLM Groq</text>
+<text x="175.0" y="805.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#4B3A72" text-anchor="middle">+ failover</text>
+<rect x="100.0" y="930.0" width="1800.0" height="170.0" rx="0" fill="#FFFFFF" stroke="#52606D" stroke-width="2"/>
+<rect x="100.0" y="930.0" width="150.0" height="170.0" rx="0" fill="#E9EDF1" stroke="#52606D" stroke-width="2"/>
+<text x="175.0" y="1010.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#52606D" text-anchor="middle">Keluaran</text>
+<text x="175.0" y="1030.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#52606D" text-anchor="middle">&amp; jejak</text>
+<circle cx="300" cy="175" r="13" fill="#1F2933"/>
+<rect x="360.0" y="148.0" width="230.0" height="54.0" rx="14" fill="#E3F0E6" stroke="#2F6B45" stroke-width="2"/>
+<text x="475.0" y="171.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">Ketik pertanyaan</text>
+<text x="475.0" y="189.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">(maks 1000 karakter)</text>
+<rect x="650.0" y="148.0" width="210.0" height="54.0" rx="14" fill="#E3F0E6" stroke="#2F6B45" stroke-width="2"/>
+<text x="755.0" y="171.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">Widget POST</text>
+<text x="755.0" y="189.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">/ai/chat</text>
+<line x1="313.0" y1="175.0" x2="360.0" y2="175.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="360.0,175.0 348.0,168.0 348.0,182.0" fill="#52606D" stroke="none"/>
+<line x1="590.0" y1="175.0" x2="650.0" y2="175.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="650.0,175.0 638.0,168.0 638.0,182.0" fill="#52606D" stroke="none"/>
+<rect x="300.0" y="320.0" width="220.0" height="54.0" rx="14" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="410.0" y="343.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">gate(): login</text>
+<text x="410.0" y="361.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">+ cek CSRF</text>
+<polygon points="680,301.0 775.0,347 680,393.0 585.0,347" fill="#FBF0DC" stroke="#8A5B13" stroke-width="2"/>
+<text x="680.0" y="352.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#8A5B13" text-anchor="middle">Intent cocok?</text>
+<rect x="900.0" y="320.0" width="260.0" height="54.0" rx="14" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="1030.0" y="343.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">buildRoleScopedContext</text>
+<text x="1030.0" y="361.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">potong data per role</text>
+<rect x="1200.0" y="320.0" width="230.0" height="54.0" rx="14" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="1315.0" y="343.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">Query DB lokal</text>
+<text x="1315.0" y="361.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">(±20 topik)</text>
+<rect x="1470.0" y="320.0" width="250.0" height="54.0" rx="14" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="1595.0" y="343.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">Jawaban terstruktur</text>
+<text x="1595.0" y="361.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">(tanpa panggilan API)</text>
+<line x1="755.0" y1="202.0" x2="755.0" y2="240.0" stroke="#52606D" stroke-width="2"/>
+<line x1="755.0" y1="240.0" x2="410.0" y2="240.0" stroke="#52606D" stroke-width="2"/>
+<line x1="410.0" y1="240.0" x2="410.0" y2="320.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="410.0,320.0 417.0,308.0 403.0,308.0" fill="#52606D" stroke="none"/>
+<line x1="520.0" y1="347.0" x2="585.0" y2="347.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="585.0,347.0 573.0,340.0 573.0,354.0" fill="#52606D" stroke="none"/>
+<line x1="775.0" y1="347.0" x2="900.0" y2="347.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="900.0,347.0 888.0,340.0 888.0,354.0" fill="#52606D" stroke="none"/>
+<text x="837.5" y="337.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#52606D" text-anchor="middle">Ya</text>
+<line x1="1160.0" y1="347.0" x2="1200.0" y2="347.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="1200.0,347.0 1188.0,340.0 1188.0,354.0" fill="#52606D" stroke="none"/>
+<line x1="1430.0" y1="347.0" x2="1470.0" y2="347.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="1470.0,347.0 1458.0,340.0 1458.0,354.0" fill="#52606D" stroke="none"/>
+<rect x="300.0" y="505.0" width="240.0" height="58.0" rx="14" fill="#FBF0DC" stroke="#8A5B13" stroke-width="2"/>
+<text x="420.0" y="530.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">analyze(): agregasi</text>
+<text x="420.0" y="548.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">pemeriksaan &amp; tren</text>
+<rect x="620.0" y="505.0" width="240.0" height="58.0" rx="14" fill="#FBF0DC" stroke="#8A5B13" stroke-width="2"/>
+<text x="740.0" y="530.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">Ambang: stok obat,</text>
+<text x="740.0" y="548.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">ED ≤90 hari, antrean</text>
+<rect x="940.0" y="505.0" width="240.0" height="58.0" rx="14" fill="#FBF0DC" stroke="#8A5B13" stroke-width="2"/>
+<text x="1060.0" y="530.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">Skor risiko sanitasi,</text>
+<text x="1060.0" y="548.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">IMT, heatmap blok</text>
+<rect x="1260.0" y="505.0" width="240.0" height="58.0" rx="14" fill="#FBF0DC" stroke="#8A5B13" stroke-width="2"/>
+<text x="1380.0" y="530.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">getSystemWarnings()</text>
+<text x="1380.0" y="548.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">→ 6 aturan</text>
+<line x1="540.0" y1="534.0" x2="620.0" y2="534.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="620.0,534.0 608.0,527.0 608.0,541.0" fill="#52606D" stroke="none"/>
+<line x1="860.0" y1="534.0" x2="940.0" y2="534.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="940.0,534.0 928.0,527.0 928.0,541.0" fill="#52606D" stroke="none"/>
+<line x1="1180.0" y1="534.0" x2="1260.0" y2="534.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="1260.0,534.0 1248.0,527.0 1248.0,541.0" fill="#52606D" stroke="none"/>
+<line x1="1500.0" y1="520.0" x2="1560.0" y2="374.0" stroke="#52606D" stroke-width="2" stroke-dasharray="7 5"/>
+<polygon points="1560.0,374.0 1549.0,382.4 1561.9,387.8" fill="#52606D" stroke="none"/>
+<text x="1620.0" y="438.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="middle">dipakai jalur intent</text>
+<line x1="680.0" y1="393.0" x2="420.0" y2="505.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="420.0,505.0 433.8,506.7 428.3,493.8" fill="#52606D" stroke="none"/>
+<text x="480.0" y="435.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="middle">Tidak: butuh nalar</text>
+<polygon points="420,672.0 520.0,720 420,768.0 320.0,720" fill="#FBF0DC" stroke="#8A5B13" stroke-width="2"/>
+<text x="420.0" y="725.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#8A5B13" text-anchor="middle">llmEnabled()
+&amp; API hidup?</text>
+<rect x="560.0" y="690.0" width="280.0" height="60.0" rx="14" fill="#EDE7F6" stroke="#4B3A72" stroke-width="2"/>
+<text x="700.0" y="716.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">buildWideContext()</text>
+<text x="700.0" y="734.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">JSON konteks ke prompt</text>
+<rect x="890.0" y="690.0" width="250.0" height="60.0" rx="14" fill="#EDE7F6" stroke="#4B3A72" stroke-width="2"/>
+<text x="1015.0" y="716.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">cURL → Groq</text>
+<text x="1015.0" y="734.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">llama-3.1-8b-instant</text>
+<polygon points="1250,675.0 1340.0,720 1250,765.0 1160.0,720" fill="#FBF0DC" stroke="#8A5B13" stroke-width="2"/>
+<text x="1250.0" y="725.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#8A5B13" text-anchor="middle">HTTP 200?</text>
+<rect x="1400.0" y="690.0" width="260.0" height="60.0" rx="14" fill="#EDE7F6" stroke="#4B3A72" stroke-width="2"/>
+<text x="1530.0" y="716.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">Failover model</text>
+<text x="1530.0" y="734.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">berikutnya (rantai 5)</text>
+<rect x="1400.0" y="810.0" width="260.0" height="56.0" rx="14" fill="#F7E4E4" stroke="#8C2F2F" stroke-width="2"/>
+<text x="1530.0" y="834.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">Pesan ramah 401 /</text>
+<text x="1530.0" y="852.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">429 / kuota habis</text>
+<rect x="560.0" y="810.0" width="280.0" height="56.0" rx="14" fill="#FBF0DC" stroke="#8A5B13" stroke-width="2"/>
+<text x="700.0" y="834.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">Fallback: ringkasan</text>
+<text x="700.0" y="852.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">mesin lokal</text>
+<line x1="420.0" y1="563.0" x2="420.0" y2="672.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="420.0,672.0 427.0,660.0 413.0,660.0" fill="#52606D" stroke="none"/>
+<line x1="520.0" y1="720.0" x2="560.0" y2="720.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="560.0,720.0 548.0,713.0 548.0,727.0" fill="#52606D" stroke="none"/>
+<text x="540.0" y="710.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#52606D" text-anchor="middle">Ya</text>
+<line x1="840.0" y1="720.0" x2="890.0" y2="720.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="890.0,720.0 878.0,713.0 878.0,727.0" fill="#52606D" stroke="none"/>
+<line x1="1140.0" y1="720.0" x2="1160.0" y2="720.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="1160.0,720.0 1148.0,713.0 1148.0,727.0" fill="#52606D" stroke="none"/>
+<line x1="1340.0" y1="720.0" x2="1400.0" y2="720.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="1400.0,720.0 1388.0,713.0 1388.0,727.0" fill="#52606D" stroke="none"/>
+<text x="1370.0" y="710.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#52606D" text-anchor="middle">Gagal</text>
+<line x1="1530.0" y1="690.0" x2="1530.0" y2="655.0" stroke="#52606D" stroke-width="2"/>
+<line x1="1530.0" y1="655.0" x2="1015.0" y2="655.0" stroke="#52606D" stroke-width="2"/>
+<line x1="1015.0" y1="655.0" x2="1015.0" y2="690.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="1015.0,690.0 1022.0,678.0 1008.0,678.0" fill="#52606D" stroke="none"/>
+<text x="1270.0" y="645.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#52606D" text-anchor="middle">coba model lain</text>
+<line x1="1530.0" y1="750.0" x2="1530.0" y2="810.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="1530.0,810.0 1537.0,798.0 1523.0,798.0" fill="#52606D" stroke="none"/>
+<line x1="420.0" y1="768.0" x2="420.0" y2="838.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="420.0,838.0 427.0,826.0 413.0,826.0" fill="#52606D" stroke="none"/>
+<text x="452.0" y="794.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#52606D" text-anchor="middle">Tidak</text>
+<line x1="420.0" y1="838.0" x2="420.0" y2="890.0" stroke="#52606D" stroke-width="2"/>
+<line x1="420.0" y1="890.0" x2="600.0" y2="890.0" stroke="#52606D" stroke-width="2"/>
+<line x1="600.0" y1="890.0" x2="600.0" y2="866.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="600.0,866.0 593.0,878.0 607.0,878.0" fill="#52606D" stroke="none"/>
+<rect x="1400.0" y="985.0" width="260.0" height="54.0" rx="14" fill="#F5F7FA" stroke="#52606D" stroke-width="2"/>
+<text x="1530.0" y="1008.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">Respons JSON</text>
+<text x="1530.0" y="1026.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">(satu-shot)</text>
+<rect x="1060.0" y="985.0" width="260.0" height="54.0" rx="14" fill="#F5F7FA" stroke="#52606D" stroke-width="2"/>
+<text x="1190.0" y="1008.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">Riwayat → session</text>
+<text x="1190.0" y="1026.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">$_SESSION['ai_chat']</text>
+<rect x="720.0" y="985.0" width="260.0" height="54.0" rx="14" fill="#F5F7FA" stroke="#52606D" stroke-width="2"/>
+<text x="850.0" y="1008.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">log_activity()</text>
+<text x="850.0" y="1026.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">'read','ai'</text>
+<rect x="360.0" y="985.0" width="260.0" height="54.0" rx="14" fill="#FBF0DC" stroke="#8A5B13" stroke-width="2"/>
+<text x="490.0" y="1008.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">Badge notifikasi</text>
+<text x="490.0" y="1026.5" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="500" fill="#1F2933" text-anchor="middle">refresh tiap 8 detik</text>
+<circle cx="240" cy="1012" r="13" fill="#1F2933"/>
+<circle cx="240" cy="1012" r="19" fill="none" stroke="#1F2933" stroke-width="3"/>
+<line x1="1250.0" y1="765.0" x2="1470.0" y2="985.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="1470.0,985.0 1466.5,971.6 1456.6,981.5" fill="#52606D" stroke="none"/>
+<text x="1320.0" y="895.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#52606D" text-anchor="middle">Ya</text>
+<line x1="1530.0" y1="866.0" x2="1530.0" y2="985.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="1530.0,985.0 1537.0,973.0 1523.0,973.0" fill="#52606D" stroke="none"/>
+<line x1="700.0" y1="866.0" x2="700.0" y2="958.0" stroke="#52606D" stroke-width="2"/>
+<line x1="700.0" y1="958.0" x2="1500.0" y2="958.0" stroke="#52606D" stroke-width="2"/>
+<line x1="1500.0" y1="958.0" x2="1500.0" y2="985.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="1500.0,985.0 1507.0,973.0 1493.0,973.0" fill="#52606D" stroke="none"/>
+<line x1="1720.0" y1="347.0" x2="1720.0" y2="1012.0" stroke="#52606D" stroke-width="2"/>
+<line x1="1720.0" y1="1012.0" x2="1660.0" y2="1012.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="1660.0,1012.0 1672.0,1019.0 1672.0,1005.0" fill="#52606D" stroke="none"/>
+<line x1="1400.0" y1="1012.0" x2="1320.0" y2="1012.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="1320.0,1012.0 1332.0,1019.0 1332.0,1005.0" fill="#52606D" stroke="none"/>
+<line x1="1060.0" y1="1012.0" x2="980.0" y2="1012.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="980.0,1012.0 992.0,1019.0 992.0,1005.0" fill="#52606D" stroke="none"/>
+<line x1="720.0" y1="1012.0" x2="620.0" y2="1012.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="620.0,1012.0 632.0,1019.0 632.0,1005.0" fill="#52606D" stroke="none"/>
+<line x1="360.0" y1="1012.0" x2="259.0" y2="1012.0" stroke="#52606D" stroke-width="2"/>
+<polygon points="259.0,1012.0 271.0,1019.0 271.0,1005.0" fill="#52606D" stroke="none"/>
+<rect x="100.0" y="1130.0" width="880.0" height="240.0" rx="4" fill="#FBF0DC" stroke="#8A5B13" stroke-width="1.5"/>
+<text x="112.0" y="1152.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">KECERDASAN NON-LLM (bukti bukan 'cuma tempel ChatGPT')</text>
+<text x="112.0" y="1170.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  Router intent regex: ±20 topik dijawab dari DB tanpa API — AiAssistantController.php:581-836</text>
+<text x="112.0" y="1188.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  Tren period-over-period + delta % + top-3 penyakit — AiAssistant.php:137-155</text>
+<text x="112.0" y="1206.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  Umur antrean kunjungan dalam hari — AiAssistant.php:168-173</text>
+<text x="112.0" y="1224.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  Ambang obat: stok &lt; minimum_stok, ED, near-expiry ≤ 90 hari — models/Obat.php:143-159</text>
+<text x="112.0" y="1242.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  Skor risiko sanitasi 8 parameter berbobot (maks 16) — models/InspeksiKamar.php:44-60</text>
+<text x="112.0" y="1260.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  IMT + kategori Kemenkes — models/SkriningKesehatan.php:43-61</text>
+<text x="112.0" y="1278.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  Heatmap risiko: skor = kasus + aktif×2 + risiko×2 — views/eksekutif/index.php:132-146</text>
+<rect x="1020.0" y="1130.0" width="880.0" height="240.0" rx="4" fill="#FBF0DC" stroke="#8A5B13" stroke-width="1.5"/>
+<text x="1032.0" y="1152.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">MITIGASI RISIKO YANG SUDAH DITERAPKAN</text>
+<text x="1032.0" y="1170.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  Role-scoping konteks: data di luar hak akses dipotong sebelum masuk prompt — controller :313</text>
+<text x="1032.0" y="1188.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  Instruksi penolakan + larangan diagnosis medis di system prompt — AiAssistant.php:364</text>
+<text x="1032.0" y="1206.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  Batas biaya: max_tokens 700, timeout 45 detik — config/ai.php:29-30</text>
+<text x="1032.0" y="1224.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  Fallback 5 model + mode offline → sistem tetap berfungsi saat API mati</text>
+<text x="1032.0" y="1242.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  Konfigurasi model hanya untuk Super Admin — controller :1298 (cek server-side, bukan disembunyikan)</text>
+<text x="1032.0" y="1260.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  Input dibatasi 1000 karakter; CSRF divalidasi sebelum eksekusi</text>
+<text x="1032.0" y="1278.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  Yang BELUM ada: rate limiting, cap riwayat, logging isi prompt, evaluasi akurasi</text>
+</svg>

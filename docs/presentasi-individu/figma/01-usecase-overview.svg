@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1500" viewBox="0 0 2000 1500">
+<rect x="0" y="0" width="2000" height="1500" fill="#FFFFFF"/>
+<text x="1000.0" y="44.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#3E5C76" text-anchor="middle">SIKES PONDOK PESANTREN — USE CASE DIAGRAM (OVERVIEW)</text>
+<text x="1000.0" y="74.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" fill="#52606D" text-anchor="middle">10 aktor + 3 aktor pendukung · 5 paket modul · 176 rute · 57 permission · 32 tabel</text>
+<rect x="430.0" y="100.0" width="1140.0" height="1120.0" rx="0" fill="#FFFFFF" stroke="#3E5C76" stroke-width="2.5"/>
+<text x="1000.0" y="128.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#3E5C76" text-anchor="middle">System: SIKES Pondok Pesantren (PHP 8 MVC, tanpa framework)</text>
+<rect x="460.0" y="150.0" width="202.0" height="26.0" rx="0" fill="#FFFFFF" stroke="#3E5C76" stroke-width="2"/>
+<text x="561.0" y="168.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#3E5C76" text-anchor="middle">Paket 1: Master Data</text>
+<rect x="460.0" y="176.0" width="1080.0" height="124.0" rx="0" fill="#FFFFFF" stroke="#3E5C76" stroke-width="2"/>
+<rect x="460.0" y="320.0" width="294.4" height="26.0" rx="0" fill="#FFFFFF" stroke="#3E5C76" stroke-width="2"/>
+<text x="607.2" y="338.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#3E5C76" text-anchor="middle">Paket 2: Kesehatan (Poskestren)</text>
+<rect x="460.0" y="346.0" width="1080.0" height="204.0" rx="0" fill="#FFFFFF" stroke="#3E5C76" stroke-width="2"/>
+<rect x="460.0" y="570.0" width="277.6" height="26.0" rx="0" fill="#FFFFFF" stroke="#3E5C76" stroke-width="2"/>
+<text x="598.8" y="588.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#3E5C76" text-anchor="middle">Paket 3: Pondok &amp; Operasional</text>
+<rect x="460.0" y="596.0" width="1080.0" height="204.0" rx="0" fill="#FFFFFF" stroke="#3E5C76" stroke-width="2"/>
+<rect x="460.0" y="820.0" width="260.8" height="26.0" rx="0" fill="#FFFFFF" stroke="#3E5C76" stroke-width="2"/>
+<text x="590.4" y="838.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#3E5C76" text-anchor="middle">Paket 4: Keuangan &amp; Laporan</text>
+<rect x="460.0" y="846.0" width="1080.0" height="124.0" rx="0" fill="#FFFFFF" stroke="#3E5C76" stroke-width="2"/>
+<rect x="460.0" y="990.0" width="319.6" height="26.0" rx="0" fill="#FFFFFF" stroke="#3E5C76" stroke-width="2"/>
+<text x="619.8" y="1008.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#3E5C76" text-anchor="middle">Paket 5: Sistem, RBAC &amp; Asisten AI</text>
+<rect x="460.0" y="1016.0" width="1080.0" height="184.0" rx="0" fill="#FFFFFF" stroke="#3E5C76" stroke-width="2"/>
+<ellipse cx="600.0" cy="250.0" rx="110.0" ry="32.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="600.0" y="247.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Kelola Data</text>
+<text x="600.0" y="263.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Santri</text>
+<ellipse cx="870.0" cy="250.0" rx="110.0" ry="32.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="870.0" y="247.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Kelola Data</text>
+<text x="870.0" y="263.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Wali Santri</text>
+<ellipse cx="1150.0" cy="250.0" rx="110.0" ry="32.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="1150.0" y="247.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Kelola Asrama /</text>
+<text x="1150.0" y="263.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Blok / Kamar</text>
+<ellipse cx="1420.0" cy="250.0" rx="110.0" ry="32.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="1420.0" y="247.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Kelola Pengguna</text>
+<text x="1420.0" y="263.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">&amp; Peran</text>
+<ellipse cx="600.0" cy="420.0" rx="110.0" ry="32.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="600.0" y="417.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Skrining</text>
+<text x="600.0" y="433.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Kesehatan</text>
+<ellipse cx="870.0" cy="420.0" rx="110.0" ry="32.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="870.0" y="417.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Pemeriksaan</text>
+<text x="870.0" y="433.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Santri Sakit</text>
+<ellipse cx="1150.0" cy="420.0" rx="110.0" ry="32.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="1150.0" y="417.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Rekam Medis</text>
+<text x="1150.0" y="433.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">(read-only)</text>
+<ellipse cx="1420.0" cy="420.0" rx="110.0" ry="32.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="1420.0" y="417.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Tracing Kontak</text>
+<text x="1420.0" y="433.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Menular</text>
+<ellipse cx="600.0" cy="670.0" rx="110.0" ry="32.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="600.0" y="667.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Distribusi</text>
+<text x="600.0" y="683.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Gizi / Diet</text>
+<ellipse cx="870.0" cy="670.0" rx="110.0" ry="32.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="870.0" y="667.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Izin Kepulangan</text>
+<text x="870.0" y="683.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">4 Tahap</text>
+<ellipse cx="1150.0" cy="670.0" rx="110.0" ry="32.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="1150.0" y="667.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Buku Tamu &amp;</text>
+<text x="1150.0" y="683.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Jadwal Piket</text>
+<ellipse cx="1420.0" cy="670.0" rx="110.0" ry="32.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="1420.0" y="667.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Inspeksi</text>
+<text x="1420.0" y="683.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Sanitasi</text>
+<ellipse cx="700.0" cy="920.0" rx="110.0" ry="32.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="700.0" y="917.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Catat &amp; Verifikasi</text>
+<text x="700.0" y="933.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Transaksi</text>
+<ellipse cx="1050.0" cy="920.0" rx="110.0" ry="32.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="1050.0" y="917.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Cetak Laporan</text>
+<text x="1050.0" y="933.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Rekap</text>
+<ellipse cx="1390.0" cy="920.0" rx="110.0" ry="32.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="1390.0" y="917.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Dashboard Eksekutif</text>
+<text x="1390.0" y="933.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">+ Heatmap</text>
+<ellipse cx="600.0" cy="1090.0" rx="110.0" ry="32.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="600.0" y="1087.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Login</text>
+<text x="600.0" y="1103.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">(throttle 5x)</text>
+<ellipse cx="870.0" cy="1090.0" rx="110.0" ry="32.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="870.0" y="1087.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Kelola Role &amp;</text>
+<text x="870.0" y="1103.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Permission</text>
+<ellipse cx="1150.0" cy="1090.0" rx="110.0" ry="32.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="1150.0" y="1087.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Audit Trail</text>
+<text x="1150.0" y="1103.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Aktivitas</text>
+<ellipse cx="1420.0" cy="1090.0" rx="110.0" ry="32.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="1420.0" y="1087.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Tanya Asisten AI</text>
+<text x="1420.0" y="1103.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">&amp; Notifikasi</text>
+<ellipse cx="760.0" cy="500.0" rx="120.0" ry="28.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="760.0" y="505.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Rujukan &amp; BPJS</text>
+<ellipse cx="1080.0" cy="500.0" rx="120.0" ry="28.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="1080.0" y="505.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">E-Surat Izin + QR</text>
+<ellipse cx="1390.0" cy="500.0" rx="120.0" ry="28.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="1390.0" y="505.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Kelola Obat &amp; Stok</text>
+<ellipse cx="760.0" cy="750.0" rx="120.0" ry="28.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="760.0" y="755.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Catatan Pengasuhan</text>
+<ellipse cx="1080.0" cy="750.0" rx="120.0" ry="28.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="1080.0" y="755.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Verifikasi Gerbang</text>
+<ellipse cx="1390.0" cy="750.0" rx="120.0" ry="28.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="1390.0" y="755.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Kepulangan Riwayat</text>
+<circle cx="170" cy="190.0" r="11" fill="none" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="170.0" y1="201.0" x2="170.0" y2="226.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="156.0" y1="210.0" x2="184.0" y2="210.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="170.0" y1="226.0" x2="158.0" y2="244.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="170.0" y1="226.0" x2="182.0" y2="244.0" stroke="#1F2933" stroke-width="2.5"/>
+<text x="170.0" y="262.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#1F2933" text-anchor="middle">Admin Santri</text>
+<circle cx="170" cy="400.0" r="11" fill="none" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="170.0" y1="411.0" x2="170.0" y2="436.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="156.0" y1="420.0" x2="184.0" y2="420.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="170.0" y1="436.0" x2="158.0" y2="454.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="170.0" y1="436.0" x2="182.0" y2="454.0" stroke="#1F2933" stroke-width="2.5"/>
+<text x="170.0" y="472.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#1F2933" text-anchor="middle">Tenaga Medis</text>
+<circle cx="170" cy="610.0" r="11" fill="none" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="170.0" y1="621.0" x2="170.0" y2="646.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="156.0" y1="630.0" x2="184.0" y2="630.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="170.0" y1="646.0" x2="158.0" y2="664.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="170.0" y1="646.0" x2="182.0" y2="664.0" stroke="#1F2933" stroke-width="2.5"/>
+<text x="170.0" y="682.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#1F2933" text-anchor="middle">Pengasuhan</text>
+<circle cx="170" cy="800.0" r="11" fill="none" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="170.0" y1="811.0" x2="170.0" y2="836.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="156.0" y1="820.0" x2="184.0" y2="820.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="170.0" y1="836.0" x2="158.0" y2="854.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="170.0" y1="836.0" x2="182.0" y2="854.0" stroke="#1F2933" stroke-width="2.5"/>
+<text x="170.0" y="872.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#1F2933" text-anchor="middle">Keamanan</text>
+<circle cx="170" cy="980.0" r="11" fill="none" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="170.0" y1="991.0" x2="170.0" y2="1016.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="156.0" y1="1000.0" x2="184.0" y2="1000.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="170.0" y1="1016.0" x2="158.0" y2="1034.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="170.0" y1="1016.0" x2="182.0" y2="1034.0" stroke="#1F2933" stroke-width="2.5"/>
+<text x="170.0" y="1052.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#1F2933" text-anchor="middle">Dapur / Gizi</text>
+<circle cx="170" cy="1150.0" r="11" fill="none" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="170.0" y1="1161.0" x2="170.0" y2="1186.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="156.0" y1="1170.0" x2="184.0" y2="1170.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="170.0" y1="1186.0" x2="158.0" y2="1204.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="170.0" y1="1186.0" x2="182.0" y2="1204.0" stroke="#1F2933" stroke-width="2.5"/>
+<text x="170.0" y="1222.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#1F2933" text-anchor="middle">Super Admin</text>
+<circle cx="1830" cy="190.0" r="11" fill="none" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1830.0" y1="201.0" x2="1830.0" y2="226.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1816.0" y1="210.0" x2="1844.0" y2="210.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1830.0" y1="226.0" x2="1818.0" y2="244.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1830.0" y1="226.0" x2="1842.0" y2="244.0" stroke="#1F2933" stroke-width="2.5"/>
+<text x="1830.0" y="262.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#1F2933" text-anchor="middle">Bendahara</text>
+<circle cx="1830" cy="400.0" r="11" fill="none" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1830.0" y1="411.0" x2="1830.0" y2="436.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1816.0" y1="420.0" x2="1844.0" y2="420.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1830.0" y1="436.0" x2="1818.0" y2="454.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1830.0" y1="436.0" x2="1842.0" y2="454.0" stroke="#1F2933" stroke-width="2.5"/>
+<text x="1830.0" y="472.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#1F2933" text-anchor="middle">Kyai / Pimpinan</text>
+<circle cx="1830" cy="610.0" r="11" fill="none" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1830.0" y1="621.0" x2="1830.0" y2="646.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1816.0" y1="630.0" x2="1844.0" y2="630.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1830.0" y1="646.0" x2="1818.0" y2="664.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1830.0" y1="646.0" x2="1842.0" y2="664.0" stroke="#1F2933" stroke-width="2.5"/>
+<text x="1830.0" y="682.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#1F2933" text-anchor="middle">Santri</text>
+<circle cx="1830" cy="800.0" r="11" fill="none" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1830.0" y1="811.0" x2="1830.0" y2="836.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1816.0" y1="820.0" x2="1844.0" y2="820.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1830.0" y1="836.0" x2="1818.0" y2="854.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1830.0" y1="836.0" x2="1842.0" y2="854.0" stroke="#1F2933" stroke-width="2.5"/>
+<text x="1830.0" y="872.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#1F2933" text-anchor="middle">Wali Santri</text>
+<circle cx="1830" cy="990.0" r="11" fill="none" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1830.0" y1="1001.0" x2="1830.0" y2="1026.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1816.0" y1="1010.0" x2="1844.0" y2="1010.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1830.0" y1="1026.0" x2="1818.0" y2="1044.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1830.0" y1="1026.0" x2="1842.0" y2="1044.0" stroke="#1F2933" stroke-width="2.5"/>
+<text x="1830.0" y="1062.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#1F2933" text-anchor="middle">Groq LLM API</text>
+<text x="1830.0" y="1080.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#52606D" text-anchor="middle">«system»</text>
+<circle cx="1830" cy="1150.0" r="11" fill="none" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1830.0" y1="1161.0" x2="1830.0" y2="1186.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1816.0" y1="1170.0" x2="1844.0" y2="1170.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1830.0" y1="1186.0" x2="1818.0" y2="1204.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1830.0" y1="1186.0" x2="1842.0" y2="1204.0" stroke="#1F2933" stroke-width="2.5"/>
+<text x="1830.0" y="1222.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#1F2933" text-anchor="middle">MySQL</text>
+<text x="1830.0" y="1240.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#52606D" text-anchor="middle">«system»</text>
+<line x1="192.0" y1="220.0" x2="460.0" y2="220.0" stroke="#52606D" stroke-width="2"/>
+<line x1="192.0" y1="220.0" x2="460.0" y2="1095.0" stroke="#52606D" stroke-width="2"/>
+<line x1="192.0" y1="430.0" x2="460.0" y2="430.0" stroke="#52606D" stroke-width="2"/>
+<line x1="192.0" y1="430.0" x2="460.0" y2="685.0" stroke="#52606D" stroke-width="2"/>
+<line x1="192.0" y1="430.0" x2="460.0" y2="1095.0" stroke="#52606D" stroke-width="2"/>
+<line x1="192.0" y1="640.0" x2="460.0" y2="435.0" stroke="#52606D" stroke-width="2"/>
+<line x1="192.0" y1="640.0" x2="460.0" y2="640.0" stroke="#52606D" stroke-width="2"/>
+<line x1="192.0" y1="830.0" x2="460.0" y2="685.0" stroke="#52606D" stroke-width="2"/>
+<line x1="192.0" y1="830.0" x2="460.0" y2="1095.0" stroke="#52606D" stroke-width="2"/>
+<line x1="192.0" y1="1010.0" x2="460.0" y2="685.0" stroke="#52606D" stroke-width="2"/>
+<line x1="192.0" y1="1180.0" x2="460.0" y2="225.0" stroke="#52606D" stroke-width="2"/>
+<line x1="192.0" y1="1180.0" x2="460.0" y2="1180.0" stroke="#52606D" stroke-width="2"/>
+<line x1="1808.0" y1="220.0" x2="1540.0" y2="895.0" stroke="#52606D" stroke-width="2"/>
+<line x1="1808.0" y1="430.0" x2="1540.0" y2="895.0" stroke="#52606D" stroke-width="2"/>
+<line x1="1808.0" y1="430.0" x2="1540.0" y2="1095.0" stroke="#52606D" stroke-width="2"/>
+<line x1="1808.0" y1="640.0" x2="1540.0" y2="435.0" stroke="#52606D" stroke-width="2"/>
+<line x1="1808.0" y1="640.0" x2="1540.0" y2="640.0" stroke="#52606D" stroke-width="2"/>
+<line x1="1808.0" y1="830.0" x2="1540.0" y2="435.0" stroke="#52606D" stroke-width="2"/>
+<line x1="1808.0" y1="830.0" x2="1540.0" y2="1095.0" stroke="#52606D" stroke-width="2"/>
+<line x1="1808.0" y1="1020.0" x2="1540.0" y2="1095.0" stroke="#52606D" stroke-width="2" stroke-dasharray="7 5"/>
+<line x1="1808.0" y1="1180.0" x2="1540.0" y2="1095.0" stroke="#52606D" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="1690.0" y="1000.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#4B3A72" text-anchor="middle">«invoke» LLM</text>
+<text x="1690.0" y="1160.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#4B3A72" text-anchor="middle">«query»</text>
+<rect x="40.0" y="1300.0" width="900.0" height="150.0" rx="4" fill="#FBF0DC" stroke="#8A5B13" stroke-width="1.5"/>
+<text x="52.0" y="1322.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">CARA BACA</text>
+<text x="52.0" y="1340.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  Garis lurus = asosiasi aktor ke paket (diperpendek agar terbaca; rinciannya di 01b-zoom)</text>
+<text x="52.0" y="1358.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  Paket 5 = scope kontribusi individu (asisten AI, notifikasi, RBAC, audit)</text>
+<text x="52.0" y="1376.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  Groq LLM API &amp; MySQL = aktor pendukung (secondary actor), bukan pengguna manusia</text>
+<text x="52.0" y="1394.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  Wali/Santri memakai sistem lewat surat &amp; gerbang, bukan lewat menu admin</text>
+<rect x="980.0" y="1300.0" width="900.0" height="150.0" rx="4" fill="#FBF0DC" stroke="#8A5B13" stroke-width="1.5"/>
+<text x="992.0" y="1322.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">PETA AKTOR -&gt; PERMISSION (contoh)</text>
+<text x="992.0" y="1340.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  tenaga-medis  : periksa.*, skrining.view, tracing.manage, obat.view</text>
+<text x="992.0" y="1358.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  keamanan      : tamu.manage, piket.manage, kepulangan.gerbang</text>
+<text x="992.0" y="1376.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  pengasuhan    : pengasuhan.*, kepulangan.pengasuhan, sanitasi.manage</text>
+<text x="992.0" y="1394.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  bendahara     : keuangan.manage (verifikasi transaksi)</text>
+<text x="992.0" y="1412.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  kyai          : laporan.view, eksekutif.view  ·  super-admin : bypass semua</text>
+</svg>

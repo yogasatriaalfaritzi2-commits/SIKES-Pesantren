@@ -1,0 +1,16 @@
+# Environment file (SENSITIF: jangan commit API Key / password database)
+.env
+
+# XAMPP / Apache / OS temp
+Thumbs.db
+.DS_Store
+*.log
+*.tmp
+
+# Uploads atau session cache jika ada
+/public/uploads/temp/
+
+# Python cache dari tools docs
+__pycache__/
+*.pyc
+.qoder-office-pptx-locks/

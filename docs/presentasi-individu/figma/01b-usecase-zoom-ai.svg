@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1200" viewBox="0 0 2000 1200">
+<rect x="0" y="0" width="2000" height="1200" fill="#FFFFFF"/>
+<text x="1000.0" y="44.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#3E5C76" text-anchor="middle">USE CASE ZOOM — PAKET 5: SISTEM, RBAC &amp; ASISTEN AI</text>
+<text x="1000.0" y="74.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" fill="#52606D" text-anchor="middle">Paket yang saya kerjakan sendiri — lengkap dengan include/extend dan aktor teknis</text>
+<rect x="430.0" y="110.0" width="1140.0" height="780.0" rx="0" fill="#FFFFFF" stroke="#3E5C76" stroke-width="2.5"/>
+<text x="1000.0" y="140.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#3E5C76" text-anchor="middle">System: SIKES — Modul Asisten AI (3.323 LOC)</text>
+<ellipse cx="600.0" cy="230.0" rx="112.0" ry="32.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="600.0" y="227.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Login</text>
+<text x="600.0" y="243.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">(throttle 5x/300s)</text>
+<ellipse cx="900.0" cy="230.0" rx="112.0" ry="32.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="900.0" y="227.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Kelola Role &amp;</text>
+<text x="900.0" y="243.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Permission</text>
+<ellipse cx="1200.0" cy="230.0" rx="112.0" ry="32.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="1200.0" y="227.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Baca Audit</text>
+<text x="1200.0" y="243.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Trail</text>
+<ellipse cx="1450.0" cy="230.0" rx="112.0" ry="32.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="1450.0" y="227.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Konfigurasi</text>
+<text x="1450.0" y="243.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Model AI</text>
+<ellipse cx="600.0" cy="430.0" rx="112.0" ry="32.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="600.0" y="427.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Tanya Asisten AI</text>
+<text x="600.0" y="443.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">(mode chat)</text>
+<ellipse cx="900.0" cy="430.0" rx="112.0" ry="32.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="900.0" y="427.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Tanya Asisten AI</text>
+<text x="900.0" y="443.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">(mode chatPro)</text>
+<ellipse cx="1200.0" cy="430.0" rx="112.0" ry="32.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="1200.0" y="427.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Terima Notifikasi</text>
+<text x="1200.0" y="443.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Operasional</text>
+<ellipse cx="1450.0" cy="430.0" rx="112.0" ry="32.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="1450.0" y="427.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Pantau Dashboard</text>
+<text x="1450.0" y="443.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Eksekutif</text>
+<ellipse cx="760.0" cy="620.0" rx="112.0" ry="32.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="760.0" y="617.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Bersihkan</text>
+<text x="760.0" y="633.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Riwayat Chat</text>
+<ellipse cx="1080.0" cy="620.0" rx="112.0" ry="32.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="1080.0" y="617.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Potong Konteks</text>
+<text x="1080.0" y="633.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">sesuai Role</text>
+<ellipse cx="1380.0" cy="620.0" rx="112.0" ry="32.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="1380.0" y="617.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Hitung Ulang</text>
+<text x="1380.0" y="633.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">6 Aturan</text>
+<ellipse cx="600.0" cy="790.0" rx="112.0" ry="32.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="600.0" y="787.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Verifikasi QR</text>
+<text x="600.0" y="803.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Surat (Publik)</text>
+<ellipse cx="950.0" cy="790.0" rx="112.0" ry="32.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="950.0" y="787.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Buka Halaman</text>
+<text x="950.0" y="803.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">/ai</text>
+<ellipse cx="1320.0" cy="790.0" rx="112.0" ry="32.0" fill="#E4EAF2" stroke="#3E5C76" stroke-width="2"/>
+<text x="1320.0" y="787.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Cetak Laporan</text>
+<text x="1320.0" y="803.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#1F2933" text-anchor="middle">Eksekutif</text>
+<circle cx="170" cy="200.0" r="11" fill="none" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="170.0" y1="211.0" x2="170.0" y2="236.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="156.0" y1="220.0" x2="184.0" y2="220.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="170.0" y1="236.0" x2="158.0" y2="254.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="170.0" y1="236.0" x2="182.0" y2="254.0" stroke="#1F2933" stroke-width="2.5"/>
+<text x="170.0" y="272.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#1F2933" text-anchor="middle">Super Admin</text>
+<circle cx="170" cy="400.0" r="11" fill="none" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="170.0" y1="411.0" x2="170.0" y2="436.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="156.0" y1="420.0" x2="184.0" y2="420.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="170.0" y1="436.0" x2="158.0" y2="454.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="170.0" y1="436.0" x2="182.0" y2="454.0" stroke="#1F2933" stroke-width="2.5"/>
+<text x="170.0" y="472.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#1F2933" text-anchor="middle">Tenaga Medis</text>
+<circle cx="170" cy="590.0" r="11" fill="none" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="170.0" y1="601.0" x2="170.0" y2="626.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="156.0" y1="610.0" x2="184.0" y2="610.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="170.0" y1="626.0" x2="158.0" y2="644.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="170.0" y1="626.0" x2="182.0" y2="644.0" stroke="#1F2933" stroke-width="2.5"/>
+<text x="170.0" y="662.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#1F2933" text-anchor="middle">Pengasuhan</text>
+<circle cx="170" cy="760.0" r="11" fill="none" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="170.0" y1="771.0" x2="170.0" y2="796.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="156.0" y1="780.0" x2="184.0" y2="780.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="170.0" y1="796.0" x2="158.0" y2="814.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="170.0" y1="796.0" x2="182.0" y2="814.0" stroke="#1F2933" stroke-width="2.5"/>
+<text x="170.0" y="832.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#1F2933" text-anchor="middle">Admin Santri</text>
+<circle cx="1830" cy="200.0" r="11" fill="none" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1830.0" y1="211.0" x2="1830.0" y2="236.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1816.0" y1="220.0" x2="1844.0" y2="220.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1830.0" y1="236.0" x2="1818.0" y2="254.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1830.0" y1="236.0" x2="1842.0" y2="254.0" stroke="#1F2933" stroke-width="2.5"/>
+<text x="1830.0" y="272.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#1F2933" text-anchor="middle">Kyai / Pimpinan</text>
+<circle cx="1830" cy="400.0" r="11" fill="none" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1830.0" y1="411.0" x2="1830.0" y2="436.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1816.0" y1="420.0" x2="1844.0" y2="420.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1830.0" y1="436.0" x2="1818.0" y2="454.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1830.0" y1="436.0" x2="1842.0" y2="454.0" stroke="#1F2933" stroke-width="2.5"/>
+<text x="1830.0" y="472.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#1F2933" text-anchor="middle">Bendahara</text>
+<circle cx="1830" cy="590.0" r="11" fill="none" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1830.0" y1="601.0" x2="1830.0" y2="626.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1816.0" y1="610.0" x2="1844.0" y2="610.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1830.0" y1="626.0" x2="1818.0" y2="644.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1830.0" y1="626.0" x2="1842.0" y2="644.0" stroke="#1F2933" stroke-width="2.5"/>
+<text x="1830.0" y="662.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#1F2933" text-anchor="middle">Groq LLM API</text>
+<text x="1830.0" y="680.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#52606D" text-anchor="middle">«system»</text>
+<circle cx="1830" cy="760.0" r="11" fill="none" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1830.0" y1="771.0" x2="1830.0" y2="796.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1816.0" y1="780.0" x2="1844.0" y2="780.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1830.0" y1="796.0" x2="1818.0" y2="814.0" stroke="#1F2933" stroke-width="2.5"/>
+<line x1="1830.0" y1="796.0" x2="1842.0" y2="814.0" stroke="#1F2933" stroke-width="2.5"/>
+<text x="1830.0" y="832.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#1F2933" text-anchor="middle">Browser</text>
+<text x="1830.0" y="850.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#52606D" text-anchor="middle">polling 8 detik</text>
+<line x1="192.0" y1="230.0" x2="488.0" y2="230.0" stroke="#52606D" stroke-width="2"/>
+<line x1="192.0" y1="230.0" x2="788.0" y2="230.0" stroke="#52606D" stroke-width="2"/>
+<line x1="192.0" y1="230.0" x2="1338.0" y2="230.0" stroke="#52606D" stroke-width="2"/>
+<line x1="192.0" y1="230.0" x2="1088.0" y2="230.0" stroke="#52606D" stroke-width="2"/>
+<line x1="192.0" y1="430.0" x2="488.0" y2="230.0" stroke="#52606D" stroke-width="2"/>
+<line x1="192.0" y1="430.0" x2="488.0" y2="430.0" stroke="#52606D" stroke-width="2"/>
+<line x1="192.0" y1="430.0" x2="1088.0" y2="430.0" stroke="#52606D" stroke-width="2"/>
+<line x1="192.0" y1="430.0" x2="1338.0" y2="430.0" stroke="#52606D" stroke-width="2"/>
+<line x1="192.0" y1="620.0" x2="488.0" y2="230.0" stroke="#52606D" stroke-width="2"/>
+<line x1="192.0" y1="620.0" x2="488.0" y2="430.0" stroke="#52606D" stroke-width="2"/>
+<line x1="192.0" y1="620.0" x2="1088.0" y2="430.0" stroke="#52606D" stroke-width="2"/>
+<line x1="192.0" y1="790.0" x2="488.0" y2="230.0" stroke="#52606D" stroke-width="2"/>
+<line x1="192.0" y1="790.0" x2="488.0" y2="790.0" stroke="#52606D" stroke-width="2"/>
+<line x1="192.0" y1="790.0" x2="788.0" y2="230.0" stroke="#52606D" stroke-width="2"/>
+<line x1="1808.0" y1="230.0" x2="1562.0" y2="430.0" stroke="#52606D" stroke-width="2"/>
+<line x1="1808.0" y1="430.0" x2="1432.0" y2="790.0" stroke="#52606D" stroke-width="2"/>
+<line x1="600.0" y1="462.0" x2="760.0" y2="588.0" stroke="#52606D" stroke-width="2" stroke-dasharray="7 5"/>
+<polygon points="760.0,588.0 754.9,575.1 746.2,586.1" fill="#52606D" stroke="none"/>
+<text x="622.0" y="516.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#4B3A72" text-anchor="middle">«include»</text>
+<line x1="900.0" y1="462.0" x2="1080.0" y2="588.0" stroke="#52606D" stroke-width="2" stroke-dasharray="7 5"/>
+<polygon points="1080.0,588.0 1074.2,575.4 1066.2,586.9" fill="#52606D" stroke="none"/>
+<text x="1080.0" y="516.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#4B3A72" text-anchor="middle">«include» role-scoping</text>
+<line x1="1200.0" y1="462.0" x2="1380.0" y2="588.0" stroke="#52606D" stroke-width="2" stroke-dasharray="7 5"/>
+<polygon points="1380.0,588.0 1374.2,575.4 1366.2,586.9" fill="#52606D" stroke="none"/>
+<text x="1348.0" y="516.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#4B3A72" text-anchor="middle">«include»</text>
+<line x1="1450.0" y1="398.0" x2="1200.0" y2="398.0" stroke="#52606D" stroke-width="2" stroke-dasharray="7 5"/>
+<polygon points="1200.0,398.0 1212.0,405.0 1212.0,391.0" fill="#52606D" stroke="none"/>
+<text x="1325.0" y="386.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#4B3A72" text-anchor="middle">«extend» pantau</text>
+<line x1="1450.0" y1="262.0" x2="1450.0" y2="398.0" stroke="#52606D" stroke-width="2" stroke-dasharray="7 5"/>
+<polygon points="1450.0,398.0 1457.0,386.0 1443.0,386.0" fill="#52606D" stroke="none"/>
+<text x="1630.0" y="321.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#4B3A72" text-anchor="middle">«include» hanya Super Admin</text>
+<line x1="900.0" y1="398.0" x2="600.0" y2="398.0" stroke="#52606D" stroke-width="2" stroke-dasharray="7 5"/>
+<polygon points="600.0,398.0 612.0,405.0 612.0,391.0" fill="#52606D" stroke="none"/>
+<text x="750.0" y="386.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#4B3A72" text-anchor="middle">«extend» chatPro</text>
+<line x1="1808.0" y1="620.0" x2="1012.0" y2="430.0" stroke="#52606D" stroke-width="2" stroke-dasharray="7 5"/>
+<polygon points="1012.0,430.0 1022.0,439.6 1025.3,426.0" fill="#52606D" stroke="none"/>
+<text x="1260.0" y="516.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#4B3A72" text-anchor="middle">«invoke»</text>
+<line x1="1808.0" y1="790.0" x2="1312.0" y2="430.0" stroke="#52606D" stroke-width="2" stroke-dasharray="7 5"/>
+<polygon points="1312.0,430.0 1317.6,442.7 1325.8,431.4" fill="#52606D" stroke="none"/>
+<text x="1530.0" y="601.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#4B3A72" text-anchor="middle">«poll» 8s</text>
+<rect x="40.0" y="950.0" width="900.0" height="200.0" rx="4" fill="#FBF0DC" stroke="#8A5B13" stroke-width="1.5"/>
+<text x="52.0" y="972.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">CATATAN USE CASE INI</text>
+<text x="52.0" y="990.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  'Tanya Asisten AI' punya 2 mode: chat (intent lokal, hemat kuota) dan chatPro (analitik luas)</text>
+<text x="52.0" y="1008.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  'Potong Konteks sesuai Role' = use case wajib (include) sebelum data masuk prompt</text>
+<text x="52.0" y="1026.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  'Terima Notifikasi' bukan push — dihitung ulang tiap polling, jadi tidak ada tabel notifikasi</text>
+<text x="52.0" y="1044.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  'Verifikasi QR Surat' satu-satunya use case publik (tanpa login, permission null)</text>
+<text x="52.0" y="1062.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  'Konfigurasi Model AI' sengaja dikunci ke satu aktor (Super Admin) di controller, bukan di UI</text>
+<rect x="980.0" y="950.0" width="900.0" height="200.0" rx="4" fill="#FBF0DC" stroke="#8A5B13" stroke-width="1.5"/>
+<text x="992.0" y="972.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">ALTERNATE FLOW (yang sering ditanya penguji)</text>
+<text x="992.0" y="990.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  AI_ENABLED=false → use case 'Tanya Asisten AI' tetap jalan via intent lokal</text>
+<text x="992.0" y="1008.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  API 401/429 → rantai failover 5 model → habis → pesan ramah + ringkasan mesin lokal</text>
+<text x="992.0" y="1026.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  Role tidak punya hak → konteks kosong + instruksi tolak di prompt (bukan filter tombol)</text>
+<text x="992.0" y="1044.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  CSRF token salah → 403 sebelum query apa pun jalan</text>
+<text x="992.0" y="1062.0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#8A5B13" text-anchor="start">·  Riwayat chat per session: logout = riwayat ikut hilang (belum ada persistensi DB)</text>
+</svg>

@@ -1,0 +1,7 @@
+RewriteEngine On
+
+# Arahkan semua request ke front controller,
+# kecuali file/folder yang benar-benar ada (css, js, gambar)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]
