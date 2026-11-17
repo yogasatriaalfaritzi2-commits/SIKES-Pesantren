@@ -19,12 +19,13 @@
 
 ## 🎬 Tautan Video Presentasi & Demo
 Video presentasi wajib (menampilkan wajah di webcam, demo live sistem):
-1. **Tahap 1: Product Requirement Document (PRD)** *(Durasi 3–5 Menit)*:  
-   👉 [Tonton Video PRD di YouTube](https://youtu.be/placeholder-prd) *(Link akan diperbarui)*
-2. **Tahap 2: Software Design Document (UML & UI/UX)** *(Durasi 5–7 Menit)*:  
-   👉 [Tonton Video UML & UI di YouTube](https://youtu.be/placeholder-uml) *(Link akan diperbarui)*
-3. **Tahap 3: Final Live Demo & Technical Walkthrough** *(Durasi 8–12 Menit)*:  
-   👉 [Tonton Video Demo Live di YouTube](https://youtu.be/placeholder-demo) *(Link akan diperbarui)*
+* 🎥 **Tautan Video Presentasi & Demo Sistem (YouTube)**:  
+  👉 [https://youtu.be/m9qQC9NvvXk](https://youtu.be/m9qQC9NvvXk)
+
+> **Catatan Struktur Presentasi di dalam Video:**
+> 1. **Tahap 1: Product Requirement Document (PRD)** *(Latar Belakang, Problem Statement, & Solusi)*
+> 2. **Tahap 2: Software Design Document (UML & UI/UX)** *(Arsitektur MVC, Use Case, Activity Diagram, & DB Schema)*
+> 3. **Tahap 3: Final Live Demo & Technical Walkthrough** *(Demo langsung sistem di browser, RBAC 10 Role, E-Surat QR Code, Contact Tracing, & AI Assistant)*
 
 ---
 
